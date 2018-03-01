@@ -1,0 +1,7 @@
+---Week 1---
+	-Created API key and Scopus account
+	-Pulled data on bees
+	-Orginized data in tsv file
+
+---Week 2---
+	-Changed the data being pulled (complete abstract and keywords)
