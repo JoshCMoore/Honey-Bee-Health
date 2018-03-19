@@ -5,3 +5,8 @@
 
 ---Week 2---
 	-Changed the data being pulled (complete abstract and keywords)
+	-All data is processed, coming out at about 1100 documents parsed
+	
+---Week 3---
+	-Created a corpus out of words in the abstracts
+	-Trained an LDA model on the corpus with a setting of 25 topics
