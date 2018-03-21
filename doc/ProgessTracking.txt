@@ -9,4 +9,4 @@
 	
 ---Week 3---
 	-Created a corpus out of words in the abstracts
-	-Trained an LDA model on the corpus with a setting of 25 topics
+	-Trained an LDA model on the corpus with a setting of 25 topics, outputting the ten terms associated with the topic
