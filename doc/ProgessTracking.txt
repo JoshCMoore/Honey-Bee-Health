@@ -10,3 +10,10 @@
 ---Week 3---
 	-Created a corpus out of words in the abstracts
 	-Trained an LDA model on the corpus with a setting of 25 topics, outputting the ten terms associated with the topic
+
+---Week 4---
+	-Created table listing publishing date of abstract, the title of the abstract, and the top 3 topics with the top three terms per topic.
+	-Tweaked parameters on lda for more optimized data.
+
+---Week 5---
+	-Begun building LSI model aroud the TFIDF statistic model.
