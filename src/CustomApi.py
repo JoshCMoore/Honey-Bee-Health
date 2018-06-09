@@ -2,8 +2,9 @@ import math
 import random
 from collections import namedtuple
 import socket
+import itertools
 #Definitions
-MyAbstract = namedtuple('MyAbstract',["title","date","text","keyWords"])
+MyAbstract = namedtuple('MyAbstract',["title","date","text"])
 
 #Def go to end of binary search position
 def toEnd(aList, pos, term,accessElement=lambda x:x):
@@ -32,6 +33,9 @@ def BinarySearch(aList,term,accessElement=lambda x:x,toLastOccurence=True):
             stop = middle
             continue
     return -1
+
+def flaten(aList):
+    return list(itertools.chain.from_iterable(aList))
 
 
 class ComunicationServer:
