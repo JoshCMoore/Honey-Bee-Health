@@ -2,36 +2,48 @@ import math
 import random
 from collections import namedtuple
 import socket
+import itertools
 #Definitions
 MyAbstract = namedtuple('MyAbstract',["title","date","text"])
+#End Declarations
+####################################################################################################
 
 #Def go to end of binary search position
-def toEnd(aList, pos, term,accessElement=lambda x:x):
-    while pos in range(0,len(aList)) and accessElement(aList[pos]) == term:
+def toLastOccurrence(aList, pos, term,key=lambda x:x):
+    while pos in range(0,len(aList)) and key(aList[pos]) == term:
         pos += 1
     return pos - 1
-
+#Public Functions
 #Binary Search implemented routinely to avoid stack overflow
-def BinarySearch(aList,term,accessElement=lambda x:x,toLastOccurence=True):
-    start = 0
-    stop = len(aList)-1
-    while start != stop:
-        change = int((stop-start)/2)
-        if change == 0:
-            return -1
-        middle = start + change
-        if accessElement(aList[middle]) == term:
-            if toLastOccurence:
-                return toEnd(aList,middle,term,accessElement=accessElement)
-            else:
-                return middle
-        if accessElement(aList[middle]) < term:
-            start = middle
+def binarySearch (arr,x,key=lambda e: e,toEnd=True):
+    #Def go to end of binary search position
+    def toLastOccurrence(aList, pos, term,key=lambda x:x):
+        while pos in range(0,len(aList)) and key(aList[pos]) == term:
+            pos += 1
+        return pos - 1
+    l = 0
+    r = len(arr)-1
+    # Check base case
+    while r >= l:
+        mid = l + (r - l)/2
+        # If element is present at the middle itself
+        if key(arr[mid]) == x:
+            return mid if not toEnd else toLastOccurrence(arr,mid,x,key=key)
+        # If element is smaller than mid, then it 
+        # can only be present in left subarray
+        elif key(arr[mid]) > x:
+            r = mid+1
             continue
-        if accessElement(aList[middle]) > term:
-            stop = middle
+        # Else the element can only be present 
+        # in right subarray
+        else:
+            l = mid+1
             continue
+    # Element is not present in the array
     return -1
+
+def flaten(aList):
+    return list(itertools.chain.from_iterable(aList))
 
 
 class ComunicationServer:
