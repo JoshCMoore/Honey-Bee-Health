@@ -4,7 +4,7 @@ from collections import namedtuple
 import socket
 import itertools
 #Definitions
-MyAbstract = namedtuple('MyAbstract',["title","date","text"])
+MyAbstract = namedtuple('MyAbstract',["title","date","text","keywords"])
 
 MyCorpora = namedtuple('MyCorpora',["corpus","id2word"])
 #End Declarations
@@ -46,20 +46,18 @@ def binarySearch (arr,x,key=lambda e: e,toEnd=True):
 
 def flaten(aList):
     return list(itertools.chain.from_iterable(aList))
+def wVectorEqual(vec1,vec2):
+    #This is a special case where the order of the vector is discarded, each vector represents an undirected edge on the graph
+    return (vec1[0] == vec2[0] and vec1[1] == vec2[1]) or (vec1[0]==vec2[1] and vec1[1] == vec2[0])
 
-
-class ComunicationServer:
-    def __init__():
-        this.s = socket.socket()
-        print "Socket successfully created"
-        this.port = 83
-        this.s.bind(('', this.port))        
-        print "socket binded to %s" %(this.port)
-        this.s.listen(5)     
-        print "socket is listening"
-
-    def acceptClients():
-        while True:
-            c, addr = s.accept()     
-            print 'Got connection from', addr
-            c.send('Thank you for connecting')
+class WordMapper:
+    def __init__(self):
+        self.tag = 0
+        self.wordMap = {}
+    def mapWord(self, word):
+        if word in self.wordMap.keys():
+            return self.wordMap[word]
+        else:
+            self.wordMap[word] = self.tag
+            self.tag += 1
+            return self.tag-1
