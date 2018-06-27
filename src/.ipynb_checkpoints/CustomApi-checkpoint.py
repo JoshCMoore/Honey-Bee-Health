@@ -3,6 +3,7 @@ import random
 from collections import namedtuple
 import socket
 import itertools
+from difflib import SequenceMatcher
 #Definitions
 MyAbstract = namedtuple('MyAbstract',["title","date","text","keywords"])
 
@@ -61,3 +62,42 @@ class WordMapper:
             self.wordMap[word] = self.tag
             self.tag += 1
             return self.tag-1
+class YearOccurences:
+    def __init__(self,phrase):
+        self.years = {}
+        self.phrase = phrase
+    def update(self,year):
+        if year in self.years.keys():
+            self.years[year] = self.years[year] + 1
+        else:
+            self.years[year] = 1
+    def sum(self):
+        self.s = 0
+        for (key,val) in self.years.iteritems():
+            self.s += val
+        return self.s
+    def getPhrase(self):
+        return self.phrase
+    def peakYear(self):
+        max = None
+        for (key,val) in self.years.iteritems():
+            if max == None:
+                max = (key,val)
+            elif val >= mav[1]:
+                max = (key,val)
+        return max
+class KeyWordTracker:
+    def __init__(self):
+        # Dict [keyphrase:YearlyOccurences] where a year is a (year,occurences)
+        self.words = {}
+    def track(self,phrase,year):
+        if phrase in self.words.keys():
+            self.words[phrase].update((year))
+        else:
+            yo = YearOccurences(phrase)
+            yo.update(year)
+            self.words[phrase] = yo
+    def topN(self,topn=50):
+        arr = sorted(self.words.values(),key=lambda k:k.sum(),reverse=True)
+        return arr[0:topn]
+                
