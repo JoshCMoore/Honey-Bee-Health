@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-07-06">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="45" label="flower">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="46" label="pollen">
+        <viz:size value="7.0"></viz:size>
+      </node>
+      <node id="150" label="hour">
+        <viz:size value="99.0"></viz:size>
+      </node>
+      <node id="151" label="everi">
+        <viz:size value="99.0"></viz:size>
+      </node>
+      <node id="152" label="daili">
+        <viz:size value="99.0"></viz:size>
+      </node>
+      <node id="158" label="pheromon">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="92" label="wax">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="51" label="sugar">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="10" label="ha−1">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="11" label="hive">
+        <viz:size value="8.0"></viz:size>
+      </node>
+      <node id="15" label="ach">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="59" label="immunoreact">
+        <viz:size value="5.0"></viz:size>
+      </node>
+      <node id="17" label="enzym">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="161" label="repel">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="0" label="bridg">
+        <viz:size value="2.0"></viz:size>
+      </node>
+      <node id="121" label="drone">
+        <viz:size value="5.0"></viz:size>
+      </node>
+      <node id="1" label="rigor">
+        <viz:size value="2.0"></viz:size>
+      </node>
+      <node id="122" label="1980">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="2" label="angl">
+        <viz:size value="2.0"></viz:size>
+      </node>
+      <node id="4" label="subfamili">
+        <viz:size value="2.0"></viz:size>
+      </node>
+      <node id="5" label="reproduct">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="6" label="epitheli">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="8" label="edg">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="9" label="spray">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="60" label="taurine‐lik">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="61" label="lobe">
+        <viz:size value="5.0"></viz:size>
+      </node>
+      <node id="63" label="temper">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="22" label="without">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="29" label="shock">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="172" label="sting">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="132" label="pattern">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="139" label="temperatur">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="70" label="forag">
+        <viz:size value="9.0"></viz:size>
+      </node>
+      <node id="73" label="egg">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="30" label="disturb">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="76" label="queen">
+        <viz:size value="6.0"></viz:size>
+      </node>
+      <node id="34" label="infest">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="35" label="bread">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="79" label="feed">
+        <viz:size value="4.0"></viz:size>
+      </node>
+      <node id="36" label="resist">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="37" label="suscept">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="180" label="alarm">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="102" label="labour">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="103" label="differ">
+        <viz:size value="5.0"></viz:size>
+      </node>
+      <node id="104" label="genet">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="148" label="age">
+        <viz:size value="6.0"></viz:size>
+      </node>
+      <node id="80" label="oligosaccharid">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="108" label="worker">
+        <viz:size value="6.0"></viz:size>
+      </node>
+      <node id="81" label="nectar">
+        <viz:size value="3.0"></viz:size>
+      </node>
+      <node id="42" label="midgut">
+        <viz:size value="6.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="150" target="151" weight="99.0"></edge>
+      <edge id="1" source="35" target="37"></edge>
+      <edge id="2" source="80" target="81"></edge>
+      <edge id="3" source="102" target="104"></edge>
+      <edge id="4" source="148" target="180" weight="3.0"></edge>
+      <edge id="5" source="9" target="11" weight="3.0"></edge>
+      <edge id="6" source="59" target="61" weight="4.0"></edge>
+      <edge id="7" source="35" target="36"></edge>
+      <edge id="8" source="148" target="172" weight="2.0"></edge>
+      <edge id="9" source="150" target="152" weight="99.0"></edge>
+      <edge id="10" source="29" target="30" weight="3.0"></edge>
+      <edge id="11" source="158" target="148"></edge>
+      <edge id="12" source="9" target="10" weight="3.0"></edge>
+      <edge id="13" source="15" target="17" weight="3.0"></edge>
+      <edge id="14" source="0" target="1" weight="2.0"></edge>
+      <edge id="15" source="158" target="172"></edge>
+      <edge id="16" source="102" target="103"></edge>
+      <edge id="17" source="6" target="8" weight="3.0"></edge>
+      <edge id="18" source="121" target="122" weight="3.0"></edge>
+      <edge id="19" source="79" target="139" weight="2.0"></edge>
+      <edge id="20" source="161" target="70" weight="3.0"></edge>
+      <edge id="21" source="59" target="60" weight="4.0"></edge>
+      <edge id="22" source="0" target="2" weight="2.0"></edge>
+    </edges>
+  </graph>
+</gexf>

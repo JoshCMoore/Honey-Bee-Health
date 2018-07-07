@@ -1,0 +1,87 @@
+\hypertarget{class_custom_api_1_1_word_mapper}{}\section{Custom\+Api.\+Word\+Mapper Class Reference}
+\label{class_custom_api_1_1_word_mapper}\index{Custom\+Api.\+Word\+Mapper@{Custom\+Api.\+Word\+Mapper}}
+
+
+Maps a word (String) to a an id (int) for the graph.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_custom_api_1_1_word_mapper_a63da7e3e9754aa8b809c7987783e335d}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Constructor sets self.\+tag = 0 and creates a blank map(dict) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{class_custom_api_1_1_word_mapper_a7fa979bd96ee31d9871fdd31dfd755b6}{map\+Word}} (self, word)
+\begin{DoxyCompactList}\small\item\em Maps a word to an integer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_custom_api_1_1_word_mapper_a3827c888795971e8ec6fa62cf94ff9ee}{tag}}
+\item 
+\mbox{\hyperlink{class_custom_api_1_1_word_mapper_adffab40f8342bf2f07dce02ec1accb25}{word\+Map}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Maps a word (String) to a an id (int) for the graph. 
+
+Gephi uses integer I\+Ds for its nodes. Therefore we have to map each word to an id to use it in the graph. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_custom_api_1_1_word_mapper_a63da7e3e9754aa8b809c7987783e335d}\label{class_custom_api_1_1_word_mapper_a63da7e3e9754aa8b809c7987783e335d}} 
+\index{Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Custom\+Api.\+Word\+Mapper.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Constructor sets self.\+tag = 0 and creates a blank map(dict) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & Object to be initialized \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_custom_api_1_1_word_mapper_a7fa979bd96ee31d9871fdd31dfd755b6}\label{class_custom_api_1_1_word_mapper_a7fa979bd96ee31d9871fdd31dfd755b6}} 
+\index{Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}!map\+Word@{map\+Word}}
+\index{map\+Word@{map\+Word}!Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}}
+\subsubsection{\texorpdfstring{map\+Word()}{mapWord()}}
+{\footnotesize\ttfamily def Custom\+Api.\+Word\+Mapper.\+map\+Word (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{word }\end{DoxyParamCaption})}
+
+
+
+Maps a word to an integer. 
+
+If the word has not been encountered before, it is equated with slf.\+tag and self.\+tag is incremented. Else the tag associated to this particular word is returned.
+
+
+\begin{DoxyParams}{Parameters}
+{\em word} & String to be mapped \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The integer associated with this word 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_custom_api_1_1_word_mapper_a3827c888795971e8ec6fa62cf94ff9ee}\label{class_custom_api_1_1_word_mapper_a3827c888795971e8ec6fa62cf94ff9ee}} 
+\index{Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}!tag@{tag}}
+\index{tag@{tag}!Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}}
+\subsubsection{\texorpdfstring{tag}{tag}}
+{\footnotesize\ttfamily Custom\+Api.\+Word\+Mapper.\+tag}
+
+\mbox{\Hypertarget{class_custom_api_1_1_word_mapper_adffab40f8342bf2f07dce02ec1accb25}\label{class_custom_api_1_1_word_mapper_adffab40f8342bf2f07dce02ec1accb25}} 
+\index{Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}!word\+Map@{word\+Map}}
+\index{word\+Map@{word\+Map}!Custom\+Api\+::\+Word\+Mapper@{Custom\+Api\+::\+Word\+Mapper}}
+\subsubsection{\texorpdfstring{word\+Map}{wordMap}}
+{\footnotesize\ttfamily Custom\+Api.\+Word\+Mapper.\+word\+Map}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_custom_api_8py}{Custom\+Api.\+py}}\end{DoxyCompactItemize}
