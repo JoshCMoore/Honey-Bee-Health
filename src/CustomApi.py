@@ -97,10 +97,11 @@ class WordMapper:
             word: String to be mapped
         Returns:
             The integer associated with this word
+
         Examples:
-         >>> mapper = CustomApi.WordMapper()
-         >>> mapper.mapWord("stuff")
-         0
+            >>> mapper = CustomApi.WordMapper()
+            >>> mapper.mapWord("stuff")
+            0
         """
         if word in self.wordMap.keys():
             return self.wordMap[word]
