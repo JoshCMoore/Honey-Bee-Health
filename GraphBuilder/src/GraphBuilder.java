@@ -1,38 +1,35 @@
 import com.itextpdf.text.PageSize;
-import org.gephi.appearance.RankingImpl;
-import org.gephi.appearance.api.Ranking;
-import org.gephi.appearance.plugin.RankingLabelColorTransformer;
+import org.gephi.appearance.api.*;
+import org.gephi.appearance.plugin.PartitionElementColorTransformer;
+import org.gephi.appearance.plugin.RankingElementColorTransformer;
+import org.gephi.appearance.plugin.palette.Palette;
+import org.gephi.appearance.plugin.palette.PaletteManager;
 import org.gephi.graph.api.*;
-import org.gephi.graph.api.types.TimeSet;
 import org.gephi.io.exporter.api.ExportController;
 import org.gephi.io.exporter.preview.PDFExporter;
 import org.gephi.io.exporter.spi.CharacterExporter;
 import org.gephi.io.exporter.spi.Exporter;
-import org.gephi.io.generator.plugin.RandomGraph;
-import org.gephi.io.importer.api.*;
-import org.gephi.io.importer.api.Container;
-import org.gephi.io.importer.impl.EdgeDraftImpl;
-import org.gephi.io.importer.impl.NodeDraftImpl;
 import org.gephi.preview.api.PreviewController;
 import org.gephi.preview.api.PreviewModel;
-import org.gephi.preview.api.PreviewProperties;
 import org.gephi.preview.api.PreviewProperty;
-import org.gephi.preview.types.EdgeColor;
+import org.gephi.project.api.Project;
 import org.gephi.project.api.ProjectController;
 import org.gephi.project.api.Workspace;
 import org.openide.util.Lookup;
-
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 
 
 public class GraphBuilder {
+    private static String nodeName = "nodes.csv";
+    private static String edgesName = "edges.csv";
     private static GraphBuilder shared = new GraphBuilder();
     private static JFrame frame = new JFrame("GraphBuilder");
+    private ProjectController pc = Lookup.getDefault().lookup(ProjectController.class);
+    private Project project1;
     private JTextField dirField;
     private JButton openButton;
     private JButton buildButton;
@@ -44,6 +41,8 @@ public class GraphBuilder {
     private File f;
     public GraphBuilder() {
         buildProgress.setStringPainted(true);
+        edgeField.setText(edgesName);
+        nodeField.setText(nodeName);
         openButton.addActionListener(e->{
 
             JFileChooser fch = new JFileChooser();
@@ -56,26 +55,48 @@ public class GraphBuilder {
         });
         buildButton.addActionListener(e ->{
             try {
-                processFiles();
+                if(validateName(edgeField.getText())){
+                    edgesName = edgeField.getText().trim();
+                }
+                if(validateName(nodeField.getText())){
+                    nodeName = nodeField.getText().trim();
+                }
+                processFiles(()->{
+                    JOptionPane.showMessageDialog(frame,"Successfuly built the graphs!","Success",JOptionPane.INFORMATION_MESSAGE);
+                });
             }catch (Exception e1){
                 e1.printStackTrace();
             }
 
         });
     }
-    private void processFiles() throws Exception{
+    private static boolean validateName(String name){
+        return name != null && name.length() > 0 && name.trim().endsWith(".csv");
+    }
+    private void processFiles(Runnable completion){
         SwingWorker<Void,Integer> worker = new SwingWorker<Void, Integer>() {
             @Override
-            protected Void doInBackground() throws Exception {
+            protected Void doInBackground(){
                 File[] dirs = f.listFiles();
                 dm = new DefaultBoundedRangeModel(0,1,0,dirs.length);
                 buildProgress.setModel(dm);
+                pc.newProject();
+                project1 = pc.getCurrentProject();
+                System.out.println("Building graphs:");
                 for(int i = 0; i < dirs.length;i++){
                     publish(i);
-                    createGraph(dirs[i]);
+                    if(!dirs[i].isDirectory()){continue;}
+                    try {
+                        System.out.print("\nBuilding graph: "+i+"/"+(dirs.length-1)+"...");
+                        createGraph(dirs[i]);
+                    }catch (Exception e){
+                        System.out.println("An error ocurred creating graph: "+i+"/"+(dirs.length-1));
+                    }
                 }
                 publish(dirs.length);
-                JOptionPane.showMessageDialog(frame,"Successfuly built the graphs!","Success",JOptionPane.INFORMATION_MESSAGE);
+                pc.saveProject(project1,new File(f.getAbsolutePath()+"/project1.gephi")).run();
+                completion.run();
+                System.out.println("Finished!");
                 publish(0);
                 return null;
             }
@@ -89,14 +110,16 @@ public class GraphBuilder {
         worker.execute();
     }
     protected void createGraph(File dir) throws Exception{
-        ProjectController pc = Lookup.getDefault().lookup(ProjectController.class);
-        pc.newProject();
-        Workspace wksp = pc.getCurrentWorkspace();
-        Container container = Lookup.getDefault().lookup(org.gephi.io.importer.api.Container.Factory.class).newContainer();
+
+        Workspace wksp = pc.newWorkspace(project1);
+        pc.openWorkspace(wksp);
         GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(dir.getAbsolutePath()+"/nodes.csv"))));
+        AppearanceController appearanceController = Lookup.getDefault().lookup(AppearanceController.class);
+        AppearanceModel appearanceModel = appearanceController.getModel();
+        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(dir.getAbsolutePath()+"/"+nodeName))));
         String line = "";
         HashMap<String,Node> nodes = new HashMap<String,Node>();
+        System.out.print("Adding Nodes...");
         while((line=br.readLine()) != null){
             if(line.contains("Id")){continue;}
             String[] parts = line.split(",");
@@ -105,12 +128,12 @@ public class GraphBuilder {
             float weight = Float.valueOf(parts[2].trim());
             Node n = graphModel.factory().newNode(id);
             n.setLabel(title);
-            n.setSize(weight);
-            //System.out.println(Arrays.toString(n.getAttributes()));
+            n.setSize(2*weight);
             nodes.put(id,n);
         }
+        System.out.print("Finished! Adding edges...");
         br.close();
-        br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(dir.getAbsolutePath()+"/edges.csv"))));
+        br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(dir.getAbsolutePath()+"/"+edgesName))));
         int i = 0;
         LinkedList<Edge> edges = new LinkedList<>();
         while((line=br.readLine()) != null){
@@ -119,52 +142,72 @@ public class GraphBuilder {
             String source = parts[0].trim();
             String target = parts[1].trim();
             double weight = Float.valueOf(parts[2].trim());
-            Edge e = graphModel.factory().newEdge(nodes.get(source),nodes.get(target),true);
+            Edge e = graphModel.factory().newEdge(nodes.get(source),nodes.get(target),false);
             e.setWeight(weight);
             edges.add(e);
             i++;
         }
-        DirectedGraph graph = graphModel.getDirectedGraph();
+        br.close();
+        System.out.print("Finished! Finalizing...");
+        UndirectedGraph graph = graphModel.getUndirectedGraph();
         graph.addAllNodes(nodes.values());
         graph.addAllEdges(edges);
-        RankingLabelColorTransformer ranker = new RankingLabelColorTransformer();
-        PreviewModel model = Lookup.getDefault().lookup(PreviewController.class).getModel();
+        PreviewController previewController = Lookup.getDefault().lookup(PreviewController.class);
+        PreviewModel previewModel = previewController.getModel();
+        previewModel.getProperties().putValue(PreviewProperty.SHOW_NODE_LABELS, Boolean.TRUE);
 
-        PreviewProperties prop = model.getProperties();
-        prop.putValue(PreviewProperty.SHOW_NODE_LABELS, Boolean.TRUE);
-        prop.putValue(PreviewProperty.EDGE_COLOR, new EdgeColor(Color.GRAY));
-        prop.putValue(PreviewProperty.EDGE_THICKNESS, new Float(0.1f));
-        prop.putValue(PreviewProperty.NODE_LABEL_FONT, prop.getFontValue(PreviewProperty.NODE_LABEL_FONT).deriveFont(12));
-
+        Function degreeRanking = appearanceModel.getNodeFunction(graph, AppearanceModel.GraphFunction.NODE_DEGREE, RankingElementColorTransformer.class);
+        RankingElementColorTransformer degreeTransformer = (RankingElementColorTransformer) degreeRanking.getTransformer();
+        degreeTransformer.setColors(new Color[]{new Color(0xFEF0D9), new Color(0xB30000)});
+        degreeTransformer.setColorPositions(new float[]{0f, 1f});
+        appearanceController.transform(degreeRanking);
+        pc.closeCurrentWorkspace();
         ExportController ec = Lookup.getDefault().lookup(ExportController.class);
         ec.exportFile(new File(dir.getAbsolutePath()+"/io_gexf.gexf"));
-        //Export to Writer
         Exporter exporterGraphML = ec.getExporter("graphml");     //Get GraphML exporter
         exporterGraphML.setWorkspace(wksp);
         StringWriter stringWriter = new StringWriter();
         ec.exportWriter(stringWriter, (CharacterExporter) exporterGraphML);
-
-        PDFExporter pdfExporter = (PDFExporter) ec.getExporter("pdf");
-        pdfExporter.setPageSize(PageSize.LETTER);
-        pdfExporter.setWorkspace(wksp);
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        ec.exportStream(baos, pdfExporter);
-        byte[] pdf = baos.toByteArray();
-        br.close();
-        FileOutputStream fos = new FileOutputStream(dir.getAbsolutePath()+"/image.pdf");
-        fos.write(pdf);
-        fos.close();
+        System.out.println("Done!");
+        pc.closeCurrentWorkspace();
+//        PDFExporter pdfExporter = (PDFExporter) ec.getExporter("pdf");
+//        pdfExporter.setPageSize(PageSize.LETTER);
+//        pdfExporter.setWorkspace(wksp);
+//        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+//        ec.exportStream(baos, pdfExporter);
+//        byte[] pdf = baos.toByteArray();
+//        FileOutputStream fos = new FileOutputStream(dir.getAbsolutePath()+"/image.pdf");
+//        fos.write(pdf);
+//        fos.close();
 
     }
 
-
-
-
     public static void main(String[] args) {
-        frame.setContentPane(shared.panel1);
-        frame.setMinimumSize(new Dimension(480,360));
-        frame.setSize(800,600);
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.setVisible(true);
+        if(args.length > 0){
+            // This is a command line, headless job
+            try {
+                String path = args[0];
+                if(1 < args.length && validateName(args[1])){
+                    nodeName = args[1].trim();
+                }
+                if(2 < args.length && validateName(args[2])){
+                    edgesName = args[2].trim();
+                }
+                shared.f = new File(path);
+                shared.processFiles(()->{
+                    // when we are finished, close the program
+
+                    System.exit(0);
+                });
+            }catch (IndexOutOfBoundsException e){
+                System.out.println("Arguments should be as follows: REQUIRED path to directory of yearly data, OPTIONAL name of nodes file, OPTIONAL name of edges file");
+            }
+        }else {
+            frame.setContentPane(shared.panel1);
+            frame.setMinimumSize(new Dimension(480, 360));
+            frame.setSize(800, 600);
+            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+            frame.setVisible(true);
+        }
     }
 }

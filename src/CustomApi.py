@@ -106,7 +106,7 @@ class WordMapper:
             return self.wordMap[word]
         else:
             self.wordMap[word] = self.tag
-            self.tag += 
+            self.tag += 1
             return self.tag-1
 
 
@@ -140,6 +140,7 @@ class YearOccurences:
             elif val >= mav[1]:
                 max = (key,val)
         return max
+
 class KeyWordTracker:
     def __init__(self):
         # Dict [keyphrase:YearlyOccurences] where a year is a (year,occurences)
