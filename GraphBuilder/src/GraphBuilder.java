@@ -119,7 +119,7 @@ public class GraphBuilder {
     */
     private double edgeWeightAdjustment(double w){
         double scale = 129;
-        return scale*(1.0/w)
+        return scale*(1.0/w);
     }
     
     protected void createGraph(File dir) throws Exception{
@@ -226,11 +226,14 @@ public class GraphBuilder {
                 System.out.println("Arguments should be as follows: REQUIRED path to directory of yearly data, OPTIONAL name of nodes file, OPTIONAL name of edges file");
             }
         }else {
-            frame.setContentPane(shared.panel1);
-            frame.setMinimumSize(new Dimension(480, 360));
-            frame.setSize(800, 600);
-            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-            frame.setVisible(true);
+            setupWindow();
         }
+    }
+    private static void setupWindow(){
+        frame.setContentPane(shared.panel1);
+        frame.setMinimumSize(new Dimension(480, 360));
+        frame.setSize(800, 600);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.setVisible(true);
     }
 }

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GraphBuilder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GraphBuilder_jar/GraphBuilder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
