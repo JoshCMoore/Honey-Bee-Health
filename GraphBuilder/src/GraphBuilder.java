@@ -115,6 +115,13 @@ public class GraphBuilder {
         };
         worker.execute();
     }
+    /**Scales edge weights so that larger wieghts have a smaller value indicator a closer connection
+    */
+    private double edgeWeightAdjustment(double w){
+        double scale = 129;
+        return scale*(1.0/w)
+    }
+    
     protected void createGraph(File dir) throws Exception{
 
         Workspace wksp = pc.newWorkspace(project1);
@@ -149,7 +156,7 @@ public class GraphBuilder {
             String target = parts[1].trim();
             double weight = Float.valueOf(parts[2].trim());
             Edge e = graphModel.factory().newEdge(nodes.get(source),nodes.get(target),false);
-            e.setWeight(weight);
+            e.setWeight(edgeWeightAdjustment(weight));
             edges.add(e);
             i++;
         }
