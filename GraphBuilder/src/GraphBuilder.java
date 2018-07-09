@@ -22,7 +22,13 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-
+/** Created by Andrew Strickland. GraphBuilder is a gui and cli tool for generating Gephi graphs
+* from research data. 
+* Update as of 06/09/2018, GraphBuilder doesnt successfully export the project file for some
+* unknown reason. Until I can look more into it I assume it is a gephi toolkit issue. Graph layouts
+* must also be applied manually in gephi, Graphbuilder creates the graph, sets node sizes, names, and colors, 
+* creates edges, and sets edge weights.
+*/
 public class GraphBuilder {
     private static String nodeName = "nodes.csv";
     private static String edgesName = "edges.csv";
@@ -181,12 +187,23 @@ public class GraphBuilder {
 //        fos.close();
 
     }
-
+    /**
+    * Entry point.
+    */
     public static void main(String[] args) {
         if(args.length > 0){
             // This is a command line, headless job
             try {
                 String path = args[0];
+                if(path.equals("--help")){
+                    System.out.println("GraphBuilder constructs a gephi graph for each input year.");
+                    System.out.print("\tEnsure your file structure is as follows:");
+                    System.out.println("PATH_DIR/YEAR1/{nodes and edges files}...ex: GephiFiles/1957");
+                    System.out.println("\t-Arg1(REQUIRED): PATH_DIR Parent folder containing yearly subfolders");
+                    System.out.println("\t-Arg2(OPTIONAL): NODE_FILE_NAME Naming convention of the nodes file");
+                    System.out.println("\t-Arg3(OPTIONAL): EDGE_FILE_NAME Naming convention of the edges file");
+                    System.exit(0);
+                }
                 if(1 < args.length && validateName(args[1])){
                     nodeName = args[1].trim();
                 }
@@ -196,7 +213,6 @@ public class GraphBuilder {
                 shared.f = new File(path);
                 shared.processFiles(()->{
                     // when we are finished, close the program
-
                     System.exit(0);
                 });
             }catch (IndexOutOfBoundsException e){
