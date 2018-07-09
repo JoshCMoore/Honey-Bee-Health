@@ -211,11 +211,15 @@ public class GraphBuilder {
                     System.out.println("\t-Arg3(OPTIONAL): EDGE_FILE_NAME Naming convention of the edges file");
                     System.exit(0);
                 }
-                if(1 < args.length && validateName(args[1])){
-                    nodeName = args[1].trim();
+                if(1 < args.length){
+                    if(!filterKeyWordArgs(args[1]) && validateName(args[1])){
+                        nodeName = args[1].trim();
+                    }
                 }
-                if(2 < args.length && validateName(args[2])){
-                    edgesName = args[2].trim();
+                if(2 < args.length){
+                    if(!filterKeyWordArgs(args[2]) && validateName(args[2])){
+                        edgesName = args[2].trim();
+                    }
                 }
                 shared.f = new File(path);
                 shared.processFiles(()->{
@@ -228,6 +232,13 @@ public class GraphBuilder {
         }else {
             setupWindow();
         }
+    }
+    private static boolean filterKeyWordArgs(String arg){
+        if(arg.equalsIgnoreCase("-gui")){
+           setupWindow();
+           return true;
+        }
+        return false;
     }
     private static void setupWindow(){
         frame.setContentPane(shared.panel1);

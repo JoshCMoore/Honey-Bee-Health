@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2018-07-08">
+  <meta lastmodifieddate="2018-07-09">
     <creator>Gephi 0.9</creator>
     <description></description>
   </meta>
@@ -208,31 +208,31 @@
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="22" target="141"></edge>
-      <edge id="1" source="28" target="29"></edge>
-      <edge id="2" source="28" target="201" weight="2.0"></edge>
-      <edge id="3" source="46" target="47" weight="5.0"></edge>
-      <edge id="4" source="104" target="167" weight="2.0"></edge>
-      <edge id="5" source="19" target="190"></edge>
-      <edge id="6" source="27" target="29"></edge>
-      <edge id="7" source="66" target="83"></edge>
-      <edge id="8" source="46" target="48" weight="5.0"></edge>
-      <edge id="9" source="66" target="40"></edge>
-      <edge id="10" source="28" target="118"></edge>
-      <edge id="11" source="104" target="40" weight="2.0"></edge>
-      <edge id="12" source="27" target="28" weight="2.0"></edge>
-      <edge id="13" source="146" target="148"></edge>
-      <edge id="14" source="111" target="112" weight="2.0"></edge>
-      <edge id="15" source="21" target="23"></edge>
-      <edge id="16" source="218" target="130"></edge>
-      <edge id="17" source="28" target="142" weight="2.0"></edge>
-      <edge id="18" source="28" target="102"></edge>
-      <edge id="19" source="73" target="15" weight="2.0"></edge>
-      <edge id="20" source="21" target="22"></edge>
-      <edge id="21" source="66" target="104"></edge>
-      <edge id="22" source="19" target="100" weight="2.0"></edge>
-      <edge id="23" source="111" target="40" weight="2.0"></edge>
-      <edge id="24" source="27" target="105" weight="2.0"></edge>
+      <edge id="0" source="22" target="141" weight="129.0"></edge>
+      <edge id="1" source="28" target="29" weight="129.0"></edge>
+      <edge id="2" source="28" target="201" weight="64.5"></edge>
+      <edge id="3" source="46" target="47" weight="25.8"></edge>
+      <edge id="4" source="104" target="167" weight="64.5"></edge>
+      <edge id="5" source="19" target="190" weight="129.0"></edge>
+      <edge id="6" source="27" target="29" weight="129.0"></edge>
+      <edge id="7" source="66" target="83" weight="129.0"></edge>
+      <edge id="8" source="46" target="48" weight="25.8"></edge>
+      <edge id="9" source="66" target="40" weight="129.0"></edge>
+      <edge id="10" source="28" target="118" weight="129.0"></edge>
+      <edge id="11" source="104" target="40" weight="64.5"></edge>
+      <edge id="12" source="27" target="28" weight="64.5"></edge>
+      <edge id="13" source="146" target="148" weight="129.0"></edge>
+      <edge id="14" source="111" target="112" weight="64.5"></edge>
+      <edge id="15" source="21" target="23" weight="129.0"></edge>
+      <edge id="16" source="218" target="130" weight="129.0"></edge>
+      <edge id="17" source="28" target="142" weight="64.5"></edge>
+      <edge id="18" source="28" target="102" weight="129.0"></edge>
+      <edge id="19" source="73" target="15" weight="64.5"></edge>
+      <edge id="20" source="21" target="22" weight="129.0"></edge>
+      <edge id="21" source="66" target="104" weight="129.0"></edge>
+      <edge id="22" source="19" target="100" weight="64.5"></edge>
+      <edge id="23" source="111" target="40" weight="64.5"></edge>
+      <edge id="24" source="27" target="105" weight="64.5"></edge>
     </edges>
   </graph>
 </gexf>
