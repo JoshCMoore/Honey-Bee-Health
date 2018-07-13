@@ -30,6 +30,7 @@ import java.util.LinkedList;
 * creates edges, and sets edge weights.
 */
 public class GraphBuilder {
+    private static final HashMap<String,String> SETTINGS = new HashMap<>();
     private static String nodeName = "nodes.csv";
     private static String edgesName = "edges.csv";
     private static GraphBuilder shared = new GraphBuilder();
@@ -222,7 +223,10 @@ public class GraphBuilder {
                     }
                 }
                 shared.f = new File(path);
-                shared.processFiles(()->{
+                shared.processFiles((SETTINGS.get("GUI").equals("true"))?()->{
+                    JOptionPane.showMessageDialog(frame,"Successfuly built the graphs!","Success",JOptionPane.INFORMATION_MESSAGE);
+                    System.exit(0);
+                }:()->{
                     // when we are finished, close the program
                     System.exit(0);
                 });
@@ -235,6 +239,7 @@ public class GraphBuilder {
     }
     private static boolean filterKeyWordArgs(String arg){
         if(arg.equalsIgnoreCase("-gui")){
+           SETTINGS.put("GUI","true");
            setupWindow();
            return true;
         }
