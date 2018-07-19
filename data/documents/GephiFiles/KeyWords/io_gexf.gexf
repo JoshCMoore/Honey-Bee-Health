@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-07-18">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="44" label="gpcr">
+        <viz:size value="50.0"></viz:size>
+        <viz:color r="236" g="184" b="166"></viz:color>
+      </node>
+      <node id="45" label="antenn lobe">
+        <viz:size value="34.0"></viz:size>
+        <viz:color r="251" g="230" b="208"></viz:color>
+      </node>
+      <node id="46" label="honeybe">
+        <viz:size value="398.0"></viz:size>
+        <viz:color r="193" g="46" b="41"></viz:color>
+      </node>
+      <node id="47" label="api mellifera">
+        <viz:size value="1084.0"></viz:size>
+        <viz:color r="179" g="0" b="0"></viz:color>
+      </node>
+      <node id="48" label="citru">
+        <viz:size value="44.0"></viz:size>
+        <viz:color r="236" g="184" b="166"></viz:color>
+      </node>
+      <node id="49" label="ecosystem servic">
+        <viz:size value="34.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="10" label="api mellifera capensi">
+        <viz:size value="62.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="11" label="bombu">
+        <viz:size value="42.0"></viz:size>
+        <viz:color r="233" g="175" b="158"></viz:color>
+      </node>
+      <node id="12" label="mutual">
+        <viz:size value="34.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="13" label="honey bee">
+        <viz:size value="318.0"></viz:size>
+        <viz:color r="199" g="64" b="58"></viz:color>
+      </node>
+      <node id="14" label="meliponini">
+        <viz:size value="34.0"></viz:size>
+        <viz:color r="242" g="203" b="183"></viz:color>
+      </node>
+      <node id="15" label="G protein-coupl receptor">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="230" g="166" b="150"></viz:color>
+      </node>
+      <node id="16" label="paenibacillu larva">
+        <viz:size value="40.0"></viz:size>
+        <viz:color r="236" g="184" b="166"></viz:color>
+      </node>
+      <node id="17" label="5.8">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="18" label="drosophila melanogast">
+        <viz:size value="64.0"></viz:size>
+        <viz:color r="228" g="156" b="141"></viz:color>
+      </node>
+      <node id="19" label="api cerana">
+        <viz:size value="52.0"></viz:size>
+        <viz:color r="248" g="221" b="200"></viz:color>
+      </node>
+      <node id="0" label="pollen">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="225" g="147" b="133"></viz:color>
+      </node>
+      <node id="1" label="acarapi woodi (rennie)">
+        <viz:size value="30.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="2" label="drosophila">
+        <viz:size value="96.0"></viz:size>
+        <viz:color r="219" g="129" b="116"></viz:color>
+      </node>
+      <node id="3" label="forag">
+        <viz:size value="64.0"></viz:size>
+        <viz:color r="230" g="166" b="150"></viz:color>
+      </node>
+      <node id="4" label="varroa destructor">
+        <viz:size value="42.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="5" label="acyrtosiphon">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="6" label="honey">
+        <viz:size value="88.0"></viz:size>
+        <viz:color r="230" g="166" b="150"></viz:color>
+      </node>
+      <node id="7" label="api">
+        <viz:size value="86.0"></viz:size>
+        <viz:color r="219" g="129" b="116"></viz:color>
+      </node>
+      <node id="8" label="anophel">
+        <viz:size value="32.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="9" label="apida">
+        <viz:size value="64.0"></viz:size>
+        <viz:color r="242" g="203" b="183"></viz:color>
+      </node>
+      <node id="20" label="aethina tumida">
+        <viz:size value="48.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="21" label="endocrinolog">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="22" label="pollin">
+        <viz:size value="94.0"></viz:size>
+        <viz:color r="222" g="138" b="125"></viz:color>
+      </node>
+      <node id="23" label="breed system">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="242" g="203" b="183"></viz:color>
+      </node>
+      <node id="24" label="aed">
+        <viz:size value="34.0"></viz:size>
+        <viz:color r="239" g="193" b="175"></viz:color>
+      </node>
+      <node id="25" label="bee venom">
+        <viz:size value="52.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="26" label="api mellifera L.">
+        <viz:size value="40.0"></viz:size>
+        <viz:color r="248" g="221" b="200"></viz:color>
+      </node>
+      <node id="27" label="acarapi woodi">
+        <viz:size value="38.0"></viz:size>
+        <viz:color r="248" g="221" b="200"></viz:color>
+      </node>
+      <node id="28" label="bumblebe">
+        <viz:size value="44.0"></viz:size>
+        <viz:color r="233" g="175" b="158"></viz:color>
+      </node>
+      <node id="29" label="hymenoptera">
+        <viz:size value="56.0"></viz:size>
+        <viz:color r="236" g="184" b="166"></viz:color>
+      </node>
+      <node id="30" label="african honey bee">
+        <viz:size value="32.0"></viz:size>
+        <viz:color r="248" g="221" b="200"></viz:color>
+      </node>
+      <node id="31" label="altern splice">
+        <viz:size value="38.0"></viz:size>
+        <viz:color r="248" g="221" b="200"></viz:color>
+      </node>
+      <node id="32" label="behaviour">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="33" label="insect">
+        <viz:size value="120.0"></viz:size>
+        <viz:color r="219" g="129" b="116"></viz:color>
+      </node>
+      <node id="34" label="allergen">
+        <viz:size value="38.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="35" label="microsatellit">
+        <viz:size value="42.0"></viz:size>
+        <viz:color r="242" g="203" b="183"></viz:color>
+      </node>
+      <node id="36" label="american foulbrood">
+        <viz:size value="92.0"></viz:size>
+        <viz:color r="242" g="203" b="183"></viz:color>
+      </node>
+      <node id="37" label="nectar">
+        <viz:size value="56.0"></viz:size>
+        <viz:color r="230" g="166" b="150"></viz:color>
+      </node>
+      <node id="38" label="bodi size">
+        <viz:size value="44.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="39" label="align">
+        <viz:size value="32.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="40" label="commun">
+        <viz:size value="36.0"></viz:size>
+        <viz:color r="245" g="212" b="191"></viz:color>
+      </node>
+      <node id="41" label="bee">
+        <viz:size value="70.0"></viz:size>
+        <viz:color r="236" g="184" b="166"></viz:color>
+      </node>
+      <node id="42" label="biogen amin">
+        <viz:size value="56.0"></viz:size>
+        <viz:color r="236" g="184" b="166"></viz:color>
+      </node>
+      <node id="43" label="apicultur">
+        <viz:size value="30.0"></viz:size>
+        <viz:color r="242" g="203" b="183"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="47" target="37" weight="10.0"></edge>
+      <edge id="1" source="47" target="31" weight="17.0"></edge>
+      <edge id="2" source="47" target="48" weight="11.0"></edge>
+      <edge id="3" source="47" target="13" weight="50.0"></edge>
+      <edge id="4" source="47" target="40" weight="16.0"></edge>
+      <edge id="5" source="47" target="6" weight="10.0"></edge>
+      <edge id="6" source="47" target="17" weight="15.0"></edge>
+      <edge id="7" source="47" target="11" weight="4.0"></edge>
+      <edge id="8" source="47" target="4" weight="15.0"></edge>
+      <edge id="9" source="47" target="16" weight="10.0"></edge>
+      <edge id="10" source="47" target="41" weight="2.0"></edge>
+      <edge id="11" source="47" target="43" weight="7.0"></edge>
+      <edge id="12" source="47" target="35" weight="6.0"></edge>
+      <edge id="13" source="47" target="36" weight="30.0"></edge>
+      <edge id="14" source="47" target="46" weight="55.0"></edge>
+      <edge id="15" source="47" target="29" weight="3.0"></edge>
+      <edge id="16" source="47" target="22" weight="12.0"></edge>
+      <edge id="17" source="47" target="39" weight="15.0"></edge>
+      <edge id="18" source="47" target="18" weight="18.0"></edge>
+      <edge id="19" source="47" target="20" weight="8.0"></edge>
+      <edge id="20" source="47" target="49" weight="5.0"></edge>
+      <edge id="21" source="47" target="0" weight="5.0"></edge>
+      <edge id="22" source="47" target="3" weight="22.0"></edge>
+      <edge id="23" source="47" target="27" weight="16.0"></edge>
+      <edge id="24" source="47" target="30" weight="5.0"></edge>
+      <edge id="25" source="47" target="33" weight="8.0"></edge>
+      <edge id="26" source="46" target="0" weight="4.0"></edge>
+      <edge id="27" source="46" target="20" weight="11.0"></edge>
+      <edge id="28" source="46" target="19" weight="5.0"></edge>
+      <edge id="29" source="46" target="34" weight="6.0"></edge>
+      <edge id="30" source="46" target="37" weight="3.0"></edge>
+      <edge id="31" source="46" target="36" weight="6.0"></edge>
+      <edge id="32" source="46" target="11" weight="4.0"></edge>
+      <edge id="33" source="46" target="10" weight="13.0"></edge>
+      <edge id="34" source="46" target="29" weight="5.0"></edge>
+      <edge id="35" source="46" target="32" weight="4.0"></edge>
+      <edge id="36" source="46" target="16" weight="4.0"></edge>
+      <edge id="37" source="46" target="47" weight="55.0"></edge>
+      <edge id="38" source="46" target="3" weight="8.0"></edge>
+      <edge id="39" source="46" target="4" weight="3.0"></edge>
+      <edge id="40" source="46" target="7" weight="10.0"></edge>
+      <edge id="41" source="46" target="22" weight="9.0"></edge>
+      <edge id="42" source="46" target="40" weight="6.0"></edge>
+      <edge id="43" source="46" target="6" weight="5.0"></edge>
+      <edge id="44" source="46" target="28" weight="4.0"></edge>
+      <edge id="45" source="46" target="33" weight="13.0"></edge>
+      <edge id="46" source="46" target="35" weight="6.0"></edge>
+      <edge id="47" source="13" target="25" weight="4.0"></edge>
+      <edge id="48" source="13" target="36" weight="5.0"></edge>
+      <edge id="49" source="13" target="2" weight="18.0"></edge>
+      <edge id="50" source="13" target="27" weight="5.0"></edge>
+      <edge id="51" source="13" target="21" weight="13.0"></edge>
+      <edge id="52" source="13" target="23" weight="12.0"></edge>
+      <edge id="53" source="13" target="10" weight="3.0"></edge>
+      <edge id="54" source="13" target="44" weight="21.0"></edge>
+      <edge id="55" source="13" target="47" weight="50.0"></edge>
+      <edge id="56" source="13" target="16" weight="5.0"></edge>
+      <edge id="57" source="13" target="22" weight="5.0"></edge>
+      <edge id="58" source="13" target="39" weight="13.0"></edge>
+      <edge id="59" source="13" target="12" weight="9.0"></edge>
+      <edge id="60" source="13" target="43" weight="3.0"></edge>
+      <edge id="61" source="13" target="30" weight="2.0"></edge>
+      <edge id="62" source="13" target="15" weight="7.0"></edge>
+      <edge id="63" source="13" target="33" weight="18.0"></edge>
+      <edge id="64" source="13" target="42" weight="5.0"></edge>
+      <edge id="65" source="13" target="17" weight="13.0"></edge>
+      <edge id="66" source="33" target="29" weight="6.0"></edge>
+      <edge id="67" source="33" target="2" weight="14.0"></edge>
+      <edge id="68" source="33" target="3" weight="5.0"></edge>
+      <edge id="69" source="33" target="15" weight="6.0"></edge>
+      <edge id="70" source="33" target="13" weight="18.0"></edge>
+      <edge id="71" source="33" target="45" weight="4.0"></edge>
+      <edge id="72" source="33" target="44" weight="14.0"></edge>
+      <edge id="73" source="33" target="21" weight="11.0"></edge>
+      <edge id="74" source="33" target="28" weight="4.0"></edge>
+      <edge id="75" source="33" target="42" weight="3.0"></edge>
+      <edge id="76" source="33" target="46" weight="13.0"></edge>
+      <edge id="77" source="33" target="47" weight="8.0"></edge>
+      <edge id="78" source="2" target="5" weight="12.0"></edge>
+      <edge id="79" source="2" target="7" weight="12.0"></edge>
+      <edge id="80" source="2" target="8" weight="12.0"></edge>
+      <edge id="81" source="2" target="13" weight="18.0"></edge>
+      <edge id="82" source="2" target="18" weight="10.0"></edge>
+      <edge id="83" source="2" target="21" weight="18.0"></edge>
+      <edge id="84" source="2" target="24" weight="12.0"></edge>
+      <edge id="85" source="2" target="26" weight="8.0"></edge>
+      <edge id="86" source="2" target="15" weight="9.0"></edge>
+      <edge id="87" source="2" target="33" weight="14.0"></edge>
+      <edge id="88" source="2" target="42" weight="8.0"></edge>
+      <edge id="89" source="2" target="44" weight="21.0"></edge>
+      <edge id="90" source="22" target="37" weight="10.0"></edge>
+      <edge id="91" source="22" target="46" weight="9.0"></edge>
+      <edge id="92" source="22" target="23" weight="4.0"></edge>
+      <edge id="93" source="22" target="13" weight="5.0"></edge>
+      <edge id="94" source="22" target="41" weight="2.0"></edge>
+      <edge id="95" source="22" target="48" weight="7.0"></edge>
+      <edge id="96" source="22" target="6" weight="4.0"></edge>
+      <edge id="97" source="22" target="12" weight="4.0"></edge>
+      <edge id="98" source="22" target="43" weight="2.0"></edge>
+      <edge id="99" source="22" target="47" weight="12.0"></edge>
+      <edge id="100" source="22" target="49"></edge>
+      <edge id="101" source="36" target="13" weight="5.0"></edge>
+      <edge id="102" source="36" target="16" weight="13.0"></edge>
+      <edge id="103" source="36" target="46" weight="6.0"></edge>
+      <edge id="104" source="36" target="47" weight="30.0"></edge>
+      <edge id="105" source="6" target="0" weight="2.0"></edge>
+      <edge id="106" source="6" target="7" weight="4.0"></edge>
+      <edge id="107" source="6" target="22" weight="4.0"></edge>
+      <edge id="108" source="6" target="14" weight="3.0"></edge>
+      <edge id="109" source="6" target="37" weight="8.0"></edge>
+      <edge id="110" source="6" target="46" weight="5.0"></edge>
+      <edge id="111" source="6" target="47" weight="10.0"></edge>
+      <edge id="112" source="6" target="48" weight="10.0"></edge>
+      <edge id="113" source="7" target="0"></edge>
+      <edge id="114" source="7" target="2" weight="12.0"></edge>
+      <edge id="115" source="7" target="5" weight="15.0"></edge>
+      <edge id="116" source="7" target="6" weight="4.0"></edge>
+      <edge id="117" source="7" target="18" weight="10.0"></edge>
+      <edge id="118" source="7" target="20" weight="7.0"></edge>
+      <edge id="119" source="7" target="28" weight="5.0"></edge>
+      <edge id="120" source="7" target="24" weight="15.0"></edge>
+      <edge id="121" source="7" target="14" weight="3.0"></edge>
+      <edge id="122" source="7" target="11" weight="6.0"></edge>
+      <edge id="123" source="7" target="46" weight="10.0"></edge>
+      <edge id="124" source="7" target="8" weight="15.0"></edge>
+      <edge id="125" source="41" target="0"></edge>
+      <edge id="126" source="41" target="22" weight="2.0"></edge>
+      <edge id="127" source="41" target="37" weight="2.0"></edge>
+      <edge id="128" source="41" target="47" weight="2.0"></edge>
+      <edge id="129" source="41" target="48" weight="4.0"></edge>
+      <edge id="130" source="41" target="49" weight="3.0"></edge>
+      <edge id="131" source="9" target="14" weight="12.0"></edge>
+      <edge id="132" source="9" target="29" weight="4.0"></edge>
+      <edge id="133" source="9" target="35" weight="4.0"></edge>
+      <edge id="134" source="9" target="49" weight="3.0"></edge>
+      <edge id="135" source="3" target="0" weight="3.0"></edge>
+      <edge id="136" source="3" target="4"></edge>
+      <edge id="137" source="3" target="40" weight="5.0"></edge>
+      <edge id="138" source="3" target="28" weight="4.0"></edge>
+      <edge id="139" source="3" target="33" weight="5.0"></edge>
+      <edge id="140" source="3" target="11" weight="7.0"></edge>
+      <edge id="141" source="3" target="46" weight="8.0"></edge>
+      <edge id="142" source="3" target="47" weight="22.0"></edge>
+      <edge id="143" source="18" target="5" weight="10.0"></edge>
+      <edge id="144" source="18" target="7" weight="10.0"></edge>
+      <edge id="145" source="18" target="8" weight="10.0"></edge>
+      <edge id="146" source="18" target="15" weight="2.0"></edge>
+      <edge id="147" source="18" target="29" weight="3.0"></edge>
+      <edge id="148" source="18" target="2" weight="10.0"></edge>
+      <edge id="149" source="18" target="31" weight="14.0"></edge>
+      <edge id="150" source="18" target="24" weight="10.0"></edge>
+      <edge id="151" source="18" target="47" weight="18.0"></edge>
+      <edge id="152" source="10" target="0"></edge>
+      <edge id="153" source="10" target="13" weight="3.0"></edge>
+      <edge id="154" source="10" target="46" weight="13.0"></edge>
+      <edge id="155" source="37" target="0"></edge>
+      <edge id="156" source="37" target="6" weight="8.0"></edge>
+      <edge id="157" source="37" target="41" weight="2.0"></edge>
+      <edge id="158" source="37" target="22" weight="10.0"></edge>
+      <edge id="159" source="37" target="23" weight="3.0"></edge>
+      <edge id="160" source="37" target="46" weight="3.0"></edge>
+      <edge id="161" source="37" target="47" weight="10.0"></edge>
+      <edge id="162" source="37" target="48" weight="8.0"></edge>
+      <edge id="163" source="29" target="9" weight="4.0"></edge>
+      <edge id="164" source="29" target="33" weight="6.0"></edge>
+      <edge id="165" source="29" target="34" weight="5.0"></edge>
+      <edge id="166" source="29" target="46" weight="5.0"></edge>
+      <edge id="167" source="29" target="47" weight="3.0"></edge>
+      <edge id="168" source="29" target="18" weight="3.0"></edge>
+      <edge id="169" source="42" target="2" weight="8.0"></edge>
+      <edge id="170" source="42" target="13" weight="5.0"></edge>
+      <edge id="171" source="42" target="15" weight="4.0"></edge>
+      <edge id="172" source="42" target="32" weight="5.0"></edge>
+      <edge id="173" source="42" target="33" weight="3.0"></edge>
+      <edge id="174" source="42" target="44" weight="6.0"></edge>
+      <edge id="175" source="19" target="25" weight="5.0"></edge>
+      <edge id="176" source="19" target="46" weight="5.0"></edge>
+      <edge id="177" source="25" target="13" weight="4.0"></edge>
+      <edge id="178" source="25" target="19" weight="5.0"></edge>
+      <edge id="179" source="25" target="34" weight="2.0"></edge>
+      <edge id="180" source="44" target="15" weight="8.0"></edge>
+      <edge id="181" source="44" target="13" weight="21.0"></edge>
+      <edge id="182" source="44" target="2" weight="21.0"></edge>
+      <edge id="183" source="44" target="42" weight="6.0"></edge>
+      <edge id="184" source="44" target="33" weight="14.0"></edge>
+      <edge id="185" source="44" target="21" weight="15.0"></edge>
+      <edge id="186" source="20" target="28" weight="5.0"></edge>
+      <edge id="187" source="20" target="11" weight="6.0"></edge>
+      <edge id="188" source="20" target="7" weight="7.0"></edge>
+      <edge id="189" source="20" target="46" weight="11.0"></edge>
+      <edge id="190" source="20" target="47" weight="8.0"></edge>
+      <edge id="191" source="48" target="37" weight="8.0"></edge>
+      <edge id="192" source="48" target="41" weight="4.0"></edge>
+      <edge id="193" source="48" target="6" weight="10.0"></edge>
+      <edge id="194" source="48" target="22" weight="7.0"></edge>
+      <edge id="195" source="48" target="47" weight="11.0"></edge>
+      <edge id="196" source="48" target="49" weight="3.0"></edge>
+      <edge id="197" source="28" target="0" weight="3.0"></edge>
+      <edge id="198" source="28" target="3" weight="4.0"></edge>
+      <edge id="199" source="28" target="7" weight="5.0"></edge>
+      <edge id="200" source="28" target="20" weight="5.0"></edge>
+      <edge id="201" source="28" target="33" weight="4.0"></edge>
+      <edge id="202" source="28" target="11" weight="10.0"></edge>
+      <edge id="203" source="28" target="46" weight="4.0"></edge>
+      <edge id="204" source="4" target="3"></edge>
+      <edge id="205" source="4" target="26"></edge>
+      <edge id="206" source="4" target="16" weight="2.0"></edge>
+      <edge id="207" source="4" target="46" weight="3.0"></edge>
+      <edge id="208" source="4" target="47" weight="15.0"></edge>
+      <edge id="209" source="35" target="9" weight="4.0"></edge>
+      <edge id="210" source="35" target="14" weight="4.0"></edge>
+      <edge id="211" source="35" target="46" weight="6.0"></edge>
+      <edge id="212" source="35" target="47" weight="6.0"></edge>
+      <edge id="213" source="11" target="0" weight="3.0"></edge>
+      <edge id="214" source="11" target="28" weight="10.0"></edge>
+      <edge id="215" source="11" target="20" weight="6.0"></edge>
+      <edge id="216" source="11" target="3" weight="7.0"></edge>
+      <edge id="217" source="11" target="7" weight="6.0"></edge>
+      <edge id="218" source="11" target="46" weight="4.0"></edge>
+      <edge id="219" source="11" target="47" weight="4.0"></edge>
+      <edge id="220" source="16" target="4" weight="2.0"></edge>
+      <edge id="221" source="16" target="13" weight="5.0"></edge>
+      <edge id="222" source="16" target="43" weight="2.0"></edge>
+      <edge id="223" source="16" target="36" weight="13.0"></edge>
+      <edge id="224" source="16" target="46" weight="4.0"></edge>
+      <edge id="225" source="16" target="47" weight="10.0"></edge>
+      <edge id="226" source="26" target="2" weight="8.0"></edge>
+      <edge id="227" source="26" target="4"></edge>
+      <edge id="228" source="31" target="18" weight="14.0"></edge>
+      <edge id="229" source="31" target="47" weight="17.0"></edge>
+      <edge id="230" source="34" target="25" weight="2.0"></edge>
+      <edge id="231" source="34" target="29" weight="5.0"></edge>
+      <edge id="232" source="34" target="46" weight="6.0"></edge>
+      <edge id="233" source="27" target="13" weight="5.0"></edge>
+      <edge id="234" source="27" target="47" weight="16.0"></edge>
+      <edge id="235" source="5" target="2" weight="12.0"></edge>
+      <edge id="236" source="5" target="18" weight="10.0"></edge>
+      <edge id="237" source="5" target="7" weight="15.0"></edge>
+      <edge id="238" source="5" target="8" weight="16.0"></edge>
+      <edge id="239" source="5" target="24" weight="17.0"></edge>
+      <edge id="240" source="32" target="42" weight="5.0"></edge>
+      <edge id="241" source="32" target="15" weight="4.0"></edge>
+      <edge id="242" source="32" target="46" weight="4.0"></edge>
+      <edge id="243" source="17" target="13" weight="13.0"></edge>
+      <edge id="244" source="17" target="39" weight="16.0"></edge>
+      <edge id="245" source="17" target="47" weight="15.0"></edge>
+      <edge id="246" source="15" target="13" weight="7.0"></edge>
+      <edge id="247" source="15" target="18" weight="2.0"></edge>
+      <edge id="248" source="15" target="2" weight="9.0"></edge>
+      <edge id="249" source="15" target="44" weight="8.0"></edge>
+      <edge id="250" source="15" target="21" weight="9.0"></edge>
+      <edge id="251" source="15" target="32" weight="4.0"></edge>
+      <edge id="252" source="15" target="33" weight="6.0"></edge>
+      <edge id="253" source="15" target="42" weight="4.0"></edge>
+      <edge id="254" source="23" target="12" weight="9.0"></edge>
+      <edge id="255" source="23" target="37" weight="3.0"></edge>
+      <edge id="256" source="23" target="22" weight="4.0"></edge>
+      <edge id="257" source="23" target="13" weight="12.0"></edge>
+      <edge id="258" source="21" target="13" weight="13.0"></edge>
+      <edge id="259" source="21" target="2" weight="18.0"></edge>
+      <edge id="260" source="21" target="15" weight="9.0"></edge>
+      <edge id="261" source="21" target="33" weight="11.0"></edge>
+      <edge id="262" source="21" target="44" weight="15.0"></edge>
+      <edge id="263" source="0" target="3" weight="3.0"></edge>
+      <edge id="264" source="0" target="7"></edge>
+      <edge id="265" source="0" target="10"></edge>
+      <edge id="266" source="0" target="37"></edge>
+      <edge id="267" source="0" target="28" weight="3.0"></edge>
+      <edge id="268" source="0" target="6" weight="2.0"></edge>
+      <edge id="269" source="0" target="41"></edge>
+      <edge id="270" source="0" target="11" weight="3.0"></edge>
+      <edge id="271" source="0" target="46" weight="4.0"></edge>
+      <edge id="272" source="0" target="47" weight="5.0"></edge>
+      <edge id="273" source="40" target="47" weight="16.0"></edge>
+      <edge id="274" source="40" target="3" weight="5.0"></edge>
+      <edge id="275" source="40" target="46" weight="6.0"></edge>
+      <edge id="276" source="24" target="2" weight="12.0"></edge>
+      <edge id="277" source="24" target="18" weight="10.0"></edge>
+      <edge id="278" source="24" target="5" weight="17.0"></edge>
+      <edge id="279" source="24" target="7" weight="15.0"></edge>
+      <edge id="280" source="24" target="8" weight="16.0"></edge>
+      <edge id="281" source="45" target="33" weight="4.0"></edge>
+      <edge id="282" source="14" target="7" weight="3.0"></edge>
+      <edge id="283" source="14" target="9" weight="12.0"></edge>
+      <edge id="284" source="14" target="35" weight="4.0"></edge>
+      <edge id="285" source="14" target="6" weight="3.0"></edge>
+      <edge id="286" source="49" target="9" weight="3.0"></edge>
+      <edge id="287" source="49" target="22"></edge>
+      <edge id="288" source="49" target="41" weight="3.0"></edge>
+      <edge id="289" source="49" target="47" weight="5.0"></edge>
+      <edge id="290" source="49" target="48" weight="3.0"></edge>
+      <edge id="291" source="12" target="13" weight="9.0"></edge>
+      <edge id="292" source="12" target="22" weight="4.0"></edge>
+      <edge id="293" source="12" target="23" weight="9.0"></edge>
+      <edge id="294" source="8" target="2" weight="12.0"></edge>
+      <edge id="295" source="8" target="18" weight="10.0"></edge>
+      <edge id="296" source="8" target="5" weight="16.0"></edge>
+      <edge id="297" source="8" target="7" weight="15.0"></edge>
+      <edge id="298" source="8" target="24" weight="16.0"></edge>
+      <edge id="299" source="39" target="13" weight="13.0"></edge>
+      <edge id="300" source="39" target="17" weight="16.0"></edge>
+      <edge id="301" source="39" target="47" weight="15.0"></edge>
+      <edge id="302" source="30" target="13" weight="2.0"></edge>
+      <edge id="303" source="30" target="47" weight="5.0"></edge>
+      <edge id="304" source="43" target="13" weight="3.0"></edge>
+      <edge id="305" source="43" target="16" weight="2.0"></edge>
+      <edge id="306" source="43" target="22" weight="2.0"></edge>
+      <edge id="307" source="43" target="47" weight="7.0"></edge>
+    </edges>
+  </graph>
+</gexf>

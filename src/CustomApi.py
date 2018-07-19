@@ -119,6 +119,7 @@ class YearOccurences:
         """
         self.years = {}
         self.phrase = phrase
+        self.cooccurringPhrases = {}
     def update(self,year):
         """
         """
@@ -141,6 +142,19 @@ class YearOccurences:
             elif val >= mav[1]:
                 max = (key,val)
         return max
+    def registerPhrases(self,phrases):
+        for ph in phrases:
+            if ph != self.phrase:
+                if ph not in self.cooccurringPhrases.keys():
+                     self.cooccurringPhrases[ph] = 1
+                else:
+                     self.cooccurringPhrases[ph] += 1
+    def firstOccurence(self):
+        try:
+            return sorted(self.years.keys())[0]
+        except:
+            pass
+        return None
 
 class KeyWordTracker:
     def __init__(self):
@@ -156,4 +170,7 @@ class KeyWordTracker:
     def topN(self,topn=50):
         arr = sorted(self.words.values(),key=lambda k:k.sum(),reverse=True)
         return arr[0:topn]
+    def registerCoOccurrences(self,phrase,phrases):
+        if phrase in self.words.keys():
+            self.words[phrase].registerPhrases(phrases)
                 
