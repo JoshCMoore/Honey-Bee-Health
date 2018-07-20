@@ -1,0 +1,131 @@
+Source,Target,weight
+apis mellifera,honeybee,11
+apis mellifera,honey bees,3
+apis mellifera,honey bee,9
+apis mellifera,hymenoptera,2
+apis mellifera,pollination,1
+apis mellifera,honeybees,4
+apis mellifera,foraging,2
+apis mellifera,apidae,18
+apis mellifera,apis,21
+apis mellifera,insect,1
+apis mellifera,reproduction,1
+apis mellifera,apis mellifera carnica,13
+apis mellifera,learning,1
+apis mellifera,africanized honey bees,16
+honeybee,honey bees,3
+honeybee,honey bee,9
+honeybee,hymenoptera,2
+honeybee,pollination,1
+honeybee,honeybees,4
+honeybee,foraging,2
+honeybee,apidae,18
+honeybee,apis,21
+honeybee,insect,1
+honeybee,reproduction,1
+honeybee,apis mellifera carnica,13
+honeybee,learning,1
+honeybee,africanized honey bees,16
+honey bees,honey bee,9
+honey bees,hymenoptera,2
+honey bees,pollination,1
+honey bees,honeybees,4
+honey bees,foraging,2
+honey bees,apidae,18
+honey bees,apis,21
+honey bees,insect,1
+honey bees,reproduction,1
+honey bees,apis mellifera carnica,13
+honey bees,learning,1
+honey bees,africanized honey bees,16
+honey bee,hymenoptera,2
+honey bee,pollination,1
+honey bee,honeybees,4
+honey bee,foraging,2
+honey bee,apidae,18
+honey bee,apis,21
+honey bee,insect,1
+honey bee,reproduction,1
+honey bee,apis mellifera carnica,13
+honey bee,learning,1
+honey bee,africanized honey bees,16
+varroa jacobsoni,hymenoptera,2
+varroa jacobsoni,pollination,1
+varroa jacobsoni,honeybees,4
+varroa jacobsoni,foraging,2
+varroa jacobsoni,apidae,18
+varroa jacobsoni,apis,21
+varroa jacobsoni,insect,1
+varroa jacobsoni,reproduction,1
+varroa jacobsoni,apis mellifera carnica,13
+varroa jacobsoni,learning,1
+varroa jacobsoni,africanized honey bees,16
+hymenoptera,pollination,1
+hymenoptera,honeybees,4
+hymenoptera,foraging,2
+hymenoptera,apidae,18
+hymenoptera,apis,21
+hymenoptera,insect,1
+hymenoptera,reproduction,1
+hymenoptera,apis mellifera carnica,13
+hymenoptera,learning,1
+hymenoptera,africanized honey bees,16
+pollination,honeybees,4
+pollination,foraging,2
+pollination,apidae,18
+pollination,apis,21
+pollination,insect,1
+pollination,reproduction,1
+pollination,apis mellifera carnica,13
+pollination,learning,1
+pollination,africanized honey bees,16
+honeybees,foraging,2
+honeybees,apidae,18
+honeybees,apis,21
+honeybees,insect,1
+honeybees,reproduction,1
+honeybees,apis mellifera carnica,13
+honeybees,learning,1
+honeybees,africanized honey bees,16
+foraging,apidae,18
+foraging,apis,21
+foraging,insect,1
+foraging,reproduction,1
+foraging,apis mellifera carnica,13
+foraging,learning,1
+foraging,africanized honey bees,16
+apidae,apis,21
+apidae,insect,1
+apidae,reproduction,1
+apidae,apis mellifera carnica,13
+apidae,learning,1
+apidae,africanized honey bees,16
+apis,insect,1
+apis,reproduction,1
+apis,apis mellifera carnica,13
+apis,learning,1
+apis,africanized honey bees,16
+insect,reproduction,1
+insect,apis mellifera carnica,13
+insect,learning,1
+insect,africanized honey bees,16
+mitochondrial dna,reproduction,1
+mitochondrial dna,apis mellifera carnica,13
+mitochondrial dna,learning,1
+mitochondrial dna,africanized honey bees,16
+pollen,reproduction,1
+pollen,apis mellifera carnica,13
+pollen,learning,1
+pollen,africanized honey bees,16
+reproduction,apis mellifera carnica,13
+reproduction,learning,1
+reproduction,africanized honey bees,16
+juvenile hormone,apis mellifera carnica,13
+juvenile hormone,learning,1
+juvenile hormone,africanized honey bees,16
+pheromone,apis mellifera carnica,13
+pheromone,learning,1
+pheromone,africanized honey bees,16
+apis mellifera carnica,learning,1
+apis mellifera carnica,africanized honey bees,16
+learning,africanized honey bees,16

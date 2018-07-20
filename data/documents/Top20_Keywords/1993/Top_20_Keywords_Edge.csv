@@ -1,0 +1,125 @@
+Source,Target,weight
+apis mellifera,honeybee,2
+apis mellifera,honey bee,7
+apis mellifera,honey bees,3
+apis mellifera,hymenoptera,1
+apis mellifera,apidae,12
+apis mellifera,pollination,1
+apis mellifera,foraging,2
+apis mellifera,apis,12
+apis mellifera,honeybees,1
+apis mellifera,insect,1
+apis mellifera,bombus,2
+apis mellifera,apis mellifera l.,3
+apis mellifera,nosema apis,1
+apis mellifera,behaviour,1
+honeybee,honey bee,7
+honeybee,honey bees,3
+honeybee,hymenoptera,1
+honeybee,apidae,12
+honeybee,pollination,1
+honeybee,foraging,2
+honeybee,apis,12
+honeybee,honeybees,1
+honeybee,insect,1
+honeybee,bombus,2
+honeybee,apis mellifera l.,3
+honeybee,nosema apis,1
+honeybee,behaviour,1
+honey bee,honey bees,3
+honey bee,hymenoptera,1
+honey bee,apidae,12
+honey bee,pollination,1
+honey bee,foraging,2
+honey bee,apis,12
+honey bee,honeybees,1
+honey bee,insect,1
+honey bee,bombus,2
+honey bee,apis mellifera l.,3
+honey bee,nosema apis,1
+honey bee,behaviour,1
+honey bees,hymenoptera,1
+honey bees,apidae,12
+honey bees,pollination,1
+honey bees,foraging,2
+honey bees,apis,12
+honey bees,honeybees,1
+honey bees,insect,1
+honey bees,bombus,2
+honey bees,apis mellifera l.,3
+honey bees,nosema apis,1
+honey bees,behaviour,1
+hymenoptera,apidae,12
+hymenoptera,pollination,1
+hymenoptera,foraging,2
+hymenoptera,apis,12
+hymenoptera,honeybees,1
+hymenoptera,insect,1
+hymenoptera,bombus,2
+hymenoptera,apis mellifera l.,3
+hymenoptera,nosema apis,1
+hymenoptera,behaviour,1
+apidae,pollination,1
+apidae,foraging,2
+apidae,apis,12
+apidae,honeybees,1
+apidae,insect,1
+apidae,bombus,2
+apidae,apis mellifera l.,3
+apidae,nosema apis,1
+apidae,behaviour,1
+pollination,foraging,2
+pollination,apis,12
+pollination,honeybees,1
+pollination,insect,1
+pollination,bombus,2
+pollination,apis mellifera l.,3
+pollination,nosema apis,1
+pollination,behaviour,1
+foraging,apis,12
+foraging,honeybees,1
+foraging,insect,1
+foraging,bombus,2
+foraging,apis mellifera l.,3
+foraging,nosema apis,1
+foraging,behaviour,1
+apis,honeybees,1
+apis,insect,1
+apis,bombus,2
+apis,apis mellifera l.,3
+apis,nosema apis,1
+apis,behaviour,1
+varroa jacobsoni,honeybees,1
+varroa jacobsoni,insect,1
+varroa jacobsoni,bombus,2
+varroa jacobsoni,apis mellifera l.,3
+varroa jacobsoni,nosema apis,1
+varroa jacobsoni,behaviour,1
+honeybees,insect,1
+honeybees,bombus,2
+honeybees,apis mellifera l.,3
+honeybees,nosema apis,1
+honeybees,behaviour,1
+insect,bombus,2
+insect,apis mellifera l.,3
+insect,nosema apis,1
+insect,behaviour,1
+pheromone,bombus,2
+pheromone,apis mellifera l.,3
+pheromone,nosema apis,1
+pheromone,behaviour,1
+pollen,bombus,2
+pollen,apis mellifera l.,3
+pollen,nosema apis,1
+pollen,behaviour,1
+bombus,apis mellifera l.,3
+bombus,nosema apis,1
+bombus,behaviour,1
+mitochondrial dna,apis mellifera l.,3
+mitochondrial dna,nosema apis,1
+mitochondrial dna,behaviour,1
+apis mellifera l.,nosema apis,1
+apis mellifera l.,behaviour,1
+queen,nosema apis,1
+queen,behaviour,1
+nosema apis,behaviour,1

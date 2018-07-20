@@ -1,0 +1,56 @@
+Source,Target,weight
+apis mellifera,honeybee,1
+apis mellifera,honey bee,3
+apis mellifera,apidae,2
+apis mellifera,foraging,2
+apis mellifera,insect,1
+apis mellifera,apis mellifera l,1
+apis mellifera,apis mellifera l.,1
+honeybee,honey bee,3
+honeybee,apidae,2
+honeybee,foraging,2
+honeybee,insect,1
+honeybee,apis mellifera l,1
+honeybee,apis mellifera l.,1
+honey bee,apidae,2
+honey bee,foraging,2
+honey bee,insect,1
+honey bee,apis mellifera l,1
+honey bee,apis mellifera l.,1
+hymenoptera,apidae,2
+hymenoptera,foraging,2
+hymenoptera,insect,1
+hymenoptera,apis mellifera l,1
+hymenoptera,apis mellifera l.,1
+apidae,foraging,2
+apidae,insect,1
+apidae,apis mellifera l,1
+apidae,apis mellifera l.,1
+pheromone,foraging,2
+pheromone,insect,1
+pheromone,apis mellifera l,1
+pheromone,apis mellifera l.,1
+honey bees,foraging,2
+honey bees,insect,1
+honey bees,apis mellifera l,1
+honey bees,apis mellifera l.,1
+foraging,insect,1
+foraging,apis mellifera l,1
+foraging,apis mellifera l.,1
+honeybees,insect,1
+honeybees,apis mellifera l,1
+honeybees,apis mellifera l.,1
+nasonov pheromone,insect,1
+nasonov pheromone,apis mellifera l,1
+nasonov pheromone,apis mellifera l.,1
+insect,apis mellifera l,1
+insect,apis mellifera l.,1
+phospholipase a2,apis mellifera l,1
+phospholipase a2,apis mellifera l.,1
+isozymes,apis mellifera l,1
+isozymes,apis mellifera l.,1
+apis mellifera l,apis mellifera l.,1
+pheromones,apis mellifera l.,1
+insect brain,apis mellifera l.,1
+haemolymph,apis mellifera l.,1
+pollination,apis mellifera l.,1

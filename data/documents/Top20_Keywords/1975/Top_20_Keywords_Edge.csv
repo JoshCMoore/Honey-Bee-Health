@@ -1,0 +1,36 @@
+Source,Target,weight
+apis mellifera,honey bee,1
+apis mellifera,apis mellifera food glands,1
+apis mellifera,apis mellifera l,1
+apis mellifera,insects,1
+honey bee,apis mellifera food glands,1
+honey bee,apis mellifera l,1
+honey bee,insects,1
+electrophoresis,apis mellifera food glands,1
+electrophoresis,apis mellifera l,1
+electrophoresis,insects,1
+proteins,apis mellifera food glands,1
+proteins,apis mellifera l,1
+proteins,insects,1
+light microscopy,apis mellifera food glands,1
+light microscopy,apis mellifera l,1
+light microscopy,insects,1
+haemolymph,apis mellifera food glands,1
+haemolymph,apis mellifera l,1
+haemolymph,insects,1
+hemolymph,apis mellifera food glands,1
+hemolymph,apis mellifera l,1
+hemolymph,insects,1
+robinia pseudo-acacia honey,apis mellifera food glands,1
+robinia pseudo-acacia honey,apis mellifera l,1
+robinia pseudo-acacia honey,insects,1
+insect visual system,apis mellifera food glands,1
+insect visual system,apis mellifera l,1
+insect visual system,insects,1
+apis mellifera food glands,apis mellifera l,1
+apis mellifera food glands,insects,1
+apis mellifera l,insects,1
+venoms,insects,1
+robinia pseudo-acacia nectar,insects,1
+retina-lamina projection,insects,1
+quantitative determination,insects,1

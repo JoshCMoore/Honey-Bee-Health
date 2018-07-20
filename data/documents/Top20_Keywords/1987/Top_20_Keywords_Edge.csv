@@ -1,0 +1,54 @@
+Source,Target,weight
+apis mellifera,honey bee,3
+apis mellifera,honeybee,1
+apis mellifera,apidae,4
+apis mellifera,honey bees,1
+apis mellifera,foraging,2
+apis mellifera,apis mellifera l.,2
+apis mellifera,apis,4
+apis mellifera,insect,1
+honey bee,honeybee,1
+honey bee,apidae,4
+honey bee,honey bees,1
+honey bee,foraging,2
+honey bee,apis mellifera l.,2
+honey bee,apis,4
+honey bee,insect,1
+honeybee,apidae,4
+honeybee,honey bees,1
+honeybee,foraging,2
+honeybee,apis mellifera l.,2
+honeybee,apis,4
+honeybee,insect,1
+hymenoptera,apidae,4
+hymenoptera,honey bees,1
+hymenoptera,foraging,2
+hymenoptera,apis mellifera l.,2
+hymenoptera,apis,4
+hymenoptera,insect,1
+apidae,honey bees,1
+apidae,foraging,2
+apidae,apis mellifera l.,2
+apidae,apis,4
+apidae,insect,1
+pheromone,honey bees,1
+pheromone,foraging,2
+pheromone,apis mellifera l.,2
+pheromone,apis,4
+pheromone,insect,1
+honey bees,foraging,2
+honey bees,apis mellifera l.,2
+honey bees,apis,4
+honey bees,insect,1
+foraging,apis mellifera l.,2
+foraging,apis,4
+foraging,insect,1
+pollination,apis mellifera l.,2
+pollination,apis,4
+pollination,insect,1
+honeybees,apis mellifera l.,2
+honeybees,apis,4
+honeybees,insect,1
+apis mellifera l.,apis,4
+apis mellifera l.,insect,1
+apis,insect,1

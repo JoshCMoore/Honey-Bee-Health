@@ -1,0 +1,31 @@
+Source,Target,weight
+apis mellifera,honey bee,2
+apis mellifera,honeybee,1
+apis mellifera,apidae,1
+apis mellifera,apis,3
+apis mellifera,apis mellifera l,1
+honey bee,honeybee,1
+honey bee,apidae,1
+honey bee,apis,3
+honey bee,apis mellifera l,1
+honeybee,apidae,1
+honeybee,apis,3
+honeybee,apis mellifera l,1
+hymenoptera,apidae,1
+hymenoptera,apis,3
+hymenoptera,apis mellifera l,1
+apidae,apis,3
+apidae,apis mellifera l,1
+pheromone,apis,3
+pheromone,apis mellifera l,1
+honey bees,apis,3
+honey bees,apis mellifera l,1
+nasonov pheromone,apis,3
+nasonov pheromone,apis mellifera l,1
+haemolymph,apis,3
+haemolymph,apis mellifera l,1
+isozymes,apis,3
+isozymes,apis mellifera l,1
+insect visual system,apis,3
+insect visual system,apis mellifera l,1
+apis,apis mellifera l,1

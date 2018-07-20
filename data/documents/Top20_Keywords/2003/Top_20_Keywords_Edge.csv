@@ -1,0 +1,131 @@
+Source,Target,weight
+apis mellifera,honeybee,23
+apis mellifera,honey bee,18
+apis mellifera,honey bees,7
+apis mellifera,pollination,1
+apis mellifera,foraging,9
+apis mellifera,honeybees,9
+apis mellifera,hymenoptera,3
+apis mellifera,apis,43
+apis mellifera,pollen,1
+apis mellifera,insect,2
+apis mellifera,apidae,27
+apis mellifera,learning,1
+apis mellifera,division of labor,5
+apis mellifera,communication,7
+honeybee,honey bee,18
+honeybee,honey bees,7
+honeybee,pollination,1
+honeybee,foraging,9
+honeybee,honeybees,9
+honeybee,hymenoptera,3
+honeybee,apis,43
+honeybee,pollen,1
+honeybee,insect,2
+honeybee,apidae,27
+honeybee,learning,1
+honeybee,division of labor,5
+honeybee,communication,7
+honey bee,honey bees,7
+honey bee,pollination,1
+honey bee,foraging,9
+honey bee,honeybees,9
+honey bee,hymenoptera,3
+honey bee,apis,43
+honey bee,pollen,1
+honey bee,insect,2
+honey bee,apidae,27
+honey bee,learning,1
+honey bee,division of labor,5
+honey bee,communication,7
+honey bees,pollination,1
+honey bees,foraging,9
+honey bees,honeybees,9
+honey bees,hymenoptera,3
+honey bees,apis,43
+honey bees,pollen,1
+honey bees,insect,2
+honey bees,apidae,27
+honey bees,learning,1
+honey bees,division of labor,5
+honey bees,communication,7
+varroa jacobsoni,pollination,1
+varroa jacobsoni,foraging,9
+varroa jacobsoni,honeybees,9
+varroa jacobsoni,hymenoptera,3
+varroa jacobsoni,apis,43
+varroa jacobsoni,pollen,1
+varroa jacobsoni,insect,2
+varroa jacobsoni,apidae,27
+varroa jacobsoni,learning,1
+varroa jacobsoni,division of labor,5
+varroa jacobsoni,communication,7
+pollination,foraging,9
+pollination,honeybees,9
+pollination,hymenoptera,3
+pollination,apis,43
+pollination,pollen,1
+pollination,insect,2
+pollination,apidae,27
+pollination,learning,1
+pollination,division of labor,5
+pollination,communication,7
+foraging,honeybees,9
+foraging,hymenoptera,3
+foraging,apis,43
+foraging,pollen,1
+foraging,insect,2
+foraging,apidae,27
+foraging,learning,1
+foraging,division of labor,5
+foraging,communication,7
+honeybees,hymenoptera,3
+honeybees,apis,43
+honeybees,pollen,1
+honeybees,insect,2
+honeybees,apidae,27
+honeybees,learning,1
+honeybees,division of labor,5
+honeybees,communication,7
+varroa destructor,hymenoptera,3
+varroa destructor,apis,43
+varroa destructor,pollen,1
+varroa destructor,insect,2
+varroa destructor,apidae,27
+varroa destructor,learning,1
+varroa destructor,division of labor,5
+varroa destructor,communication,7
+hymenoptera,apis,43
+hymenoptera,pollen,1
+hymenoptera,insect,2
+hymenoptera,apidae,27
+hymenoptera,learning,1
+hymenoptera,division of labor,5
+hymenoptera,communication,7
+apis,pollen,1
+apis,insect,2
+apis,apidae,27
+apis,learning,1
+apis,division of labor,5
+apis,communication,7
+pollen,insect,2
+pollen,apidae,27
+pollen,learning,1
+pollen,division of labor,5
+pollen,communication,7
+insect,apidae,27
+insect,learning,1
+insect,division of labor,5
+insect,communication,7
+apidae,learning,1
+apidae,division of labor,5
+apidae,communication,7
+learning,division of labor,5
+learning,communication,7
+juvenile hormone,division of labor,5
+juvenile hormone,communication,7
+propolis,division of labor,5
+propolis,communication,7
+social insects,division of labor,5
+social insects,communication,7
+division of labor,communication,7

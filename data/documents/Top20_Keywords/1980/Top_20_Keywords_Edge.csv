@@ -1,0 +1,21 @@
+Source,Target,weight
+apis mellifera,honey bee,2
+apis mellifera,honeybee,1
+apis mellifera,apis mellifera food glands,1
+honey bee,honeybee,1
+honey bee,apis mellifera food glands,1
+honeybee,apis mellifera food glands,1
+insect visual system,apis mellifera food glands,1
+malate dehydrogenase,apis mellifera food glands,1
+stigmasterol,apis mellifera food glands,1
+electrophoresis,apis mellifera food glands,1
+proteins,apis mellifera food glands,1
+light microscopy,apis mellifera food glands,1
+haemolymph,apis mellifera food glands,1
+isozymes,apis mellifera food glands,1
+wax esters,apis mellifera food glands,1
+honey bees,apis mellifera food glands,1
+hemolymph,apis mellifera food glands,1
+robinia pseudo-acacia honey,apis mellifera food glands,1
+dietary sterols,apis mellifera food glands,1
+campesterol,apis mellifera food glands,1

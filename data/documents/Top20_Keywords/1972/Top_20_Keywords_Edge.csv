@@ -1,0 +1,32 @@
+Source,Target,weight
+apis mellifera,amino acid,1
+apis mellifera,bees and biogenic amines,1
+apis mellifera,bee venom,1
+apis mellifera,animal heat production,1
+honey bee,amino acid,1
+honey bee,bees and biogenic amines,1
+honey bee,bee venom,1
+honey bee,animal heat production,1
+proteins,amino acid,1
+proteins,bees and biogenic amines,1
+proteins,bee venom,1
+proteins,animal heat production,1
+haemolymph,amino acid,1
+haemolymph,bees and biogenic amines,1
+haemolymph,bee venom,1
+haemolymph,animal heat production,1
+amino acid,bees and biogenic amines,1
+amino acid,bee venom,1
+amino acid,animal heat production,1
+bees and biogenic amines,bee venom,1
+bees and biogenic amines,animal heat production,1
+isozymes,bee venom,1
+isozymes,animal heat production,1
+energy,bee venom,1
+energy,animal heat production,1
+ecdysis,bee venom,1
+ecdysis,animal heat production,1
+temperature regulation,bee venom,1
+temperature regulation,animal heat production,1
+bee venom,animal heat production,1
+venoms,animal heat production,1

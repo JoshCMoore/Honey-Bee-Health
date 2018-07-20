@@ -1,0 +1,129 @@
+Source,Target,weight
+apis mellifera,honeybee,8
+apis mellifera,honey bees,3
+apis mellifera,honey bee,8
+apis mellifera,hymenoptera,1
+apis mellifera,foraging,2
+apis mellifera,pollination,1
+apis mellifera,apidae,17
+apis mellifera,honeybees,3
+apis mellifera,apis,16
+apis mellifera,insect,1
+apis mellifera,communication,1
+apis mellifera,reproduction,1
+apis mellifera,africanized honey bees,14
+apis mellifera,apis cerana,12
+honeybee,honey bees,3
+honeybee,honey bee,8
+honeybee,hymenoptera,1
+honeybee,foraging,2
+honeybee,pollination,1
+honeybee,apidae,17
+honeybee,honeybees,3
+honeybee,apis,16
+honeybee,insect,1
+honeybee,communication,1
+honeybee,reproduction,1
+honeybee,africanized honey bees,14
+honeybee,apis cerana,12
+honey bees,honey bee,8
+honey bees,hymenoptera,1
+honey bees,foraging,2
+honey bees,pollination,1
+honey bees,apidae,17
+honey bees,honeybees,3
+honey bees,apis,16
+honey bees,insect,1
+honey bees,communication,1
+honey bees,reproduction,1
+honey bees,africanized honey bees,14
+honey bees,apis cerana,12
+honey bee,hymenoptera,1
+honey bee,foraging,2
+honey bee,pollination,1
+honey bee,apidae,17
+honey bee,honeybees,3
+honey bee,apis,16
+honey bee,insect,1
+honey bee,communication,1
+honey bee,reproduction,1
+honey bee,africanized honey bees,14
+honey bee,apis cerana,12
+varroa jacobsoni,hymenoptera,1
+varroa jacobsoni,foraging,2
+varroa jacobsoni,pollination,1
+varroa jacobsoni,apidae,17
+varroa jacobsoni,honeybees,3
+varroa jacobsoni,apis,16
+varroa jacobsoni,insect,1
+varroa jacobsoni,communication,1
+varroa jacobsoni,reproduction,1
+varroa jacobsoni,africanized honey bees,14
+varroa jacobsoni,apis cerana,12
+hymenoptera,foraging,2
+hymenoptera,pollination,1
+hymenoptera,apidae,17
+hymenoptera,honeybees,3
+hymenoptera,apis,16
+hymenoptera,insect,1
+hymenoptera,communication,1
+hymenoptera,reproduction,1
+hymenoptera,africanized honey bees,14
+hymenoptera,apis cerana,12
+foraging,pollination,1
+foraging,apidae,17
+foraging,honeybees,3
+foraging,apis,16
+foraging,insect,1
+foraging,communication,1
+foraging,reproduction,1
+foraging,africanized honey bees,14
+foraging,apis cerana,12
+pollination,apidae,17
+pollination,honeybees,3
+pollination,apis,16
+pollination,insect,1
+pollination,communication,1
+pollination,reproduction,1
+pollination,africanized honey bees,14
+pollination,apis cerana,12
+apidae,honeybees,3
+apidae,apis,16
+apidae,insect,1
+apidae,communication,1
+apidae,reproduction,1
+apidae,africanized honey bees,14
+apidae,apis cerana,12
+honeybees,apis,16
+honeybees,insect,1
+honeybees,communication,1
+honeybees,reproduction,1
+honeybees,africanized honey bees,14
+honeybees,apis cerana,12
+apis,insect,1
+apis,communication,1
+apis,reproduction,1
+apis,africanized honey bees,14
+apis,apis cerana,12
+insect,communication,1
+insect,reproduction,1
+insect,africanized honey bees,14
+insect,apis cerana,12
+mitochondrial dna,communication,1
+mitochondrial dna,reproduction,1
+mitochondrial dna,africanized honey bees,14
+mitochondrial dna,apis cerana,12
+pollen,communication,1
+pollen,reproduction,1
+pollen,africanized honey bees,14
+pollen,apis cerana,12
+communication,reproduction,1
+communication,africanized honey bees,14
+communication,apis cerana,12
+reproduction,africanized honey bees,14
+reproduction,apis cerana,12
+pheromone,africanized honey bees,14
+pheromone,apis cerana,12
+juvenile hormone,africanized honey bees,14
+juvenile hormone,apis cerana,12
+africanized honey bees,apis cerana,12

@@ -1,0 +1,74 @@
+Source,Target,weight
+apis mellifera,honey bee,2
+apis mellifera,honeybee,1
+apis mellifera,apis mellifera food glands,1
+apis mellifera,bees,1
+apis mellifera,bee apis mellifera,2
+apis mellifera,flight,1
+apis mellifera,apis mellifera l,1
+honey bee,honeybee,1
+honey bee,apis mellifera food glands,1
+honey bee,bees,1
+honey bee,bee apis mellifera,2
+honey bee,flight,1
+honey bee,apis mellifera l,1
+honeybee,apis mellifera food glands,1
+honeybee,bees,1
+honeybee,bee apis mellifera,2
+honeybee,flight,1
+honeybee,apis mellifera l,1
+insect visual system,apis mellifera food glands,1
+insect visual system,bees,1
+insect visual system,bee apis mellifera,2
+insect visual system,flight,1
+insect visual system,apis mellifera l,1
+malate dehydrogenase,apis mellifera food glands,1
+malate dehydrogenase,bees,1
+malate dehydrogenase,bee apis mellifera,2
+malate dehydrogenase,flight,1
+malate dehydrogenase,apis mellifera l,1
+electrophoresis,apis mellifera food glands,1
+electrophoresis,bees,1
+electrophoresis,bee apis mellifera,2
+electrophoresis,flight,1
+electrophoresis,apis mellifera l,1
+proteins,apis mellifera food glands,1
+proteins,bees,1
+proteins,bee apis mellifera,2
+proteins,flight,1
+proteins,apis mellifera l,1
+light microscopy,apis mellifera food glands,1
+light microscopy,bees,1
+light microscopy,bee apis mellifera,2
+light microscopy,flight,1
+light microscopy,apis mellifera l,1
+haemolymph,apis mellifera food glands,1
+haemolymph,bees,1
+haemolymph,bee apis mellifera,2
+haemolymph,flight,1
+haemolymph,apis mellifera l,1
+isozymes,apis mellifera food glands,1
+isozymes,bees,1
+isozymes,bee apis mellifera,2
+isozymes,flight,1
+isozymes,apis mellifera l,1
+hemolymph,apis mellifera food glands,1
+hemolymph,bees,1
+hemolymph,bee apis mellifera,2
+hemolymph,flight,1
+hemolymph,apis mellifera l,1
+robinia pseudo-acacia honey,apis mellifera food glands,1
+robinia pseudo-acacia honey,bees,1
+robinia pseudo-acacia honey,bee apis mellifera,2
+robinia pseudo-acacia honey,flight,1
+robinia pseudo-acacia honey,apis mellifera l,1
+apis mellifera food glands,bees,1
+apis mellifera food glands,bee apis mellifera,2
+apis mellifera food glands,flight,1
+apis mellifera food glands,apis mellifera l,1
+bees,bee apis mellifera,2
+bees,flight,1
+bees,apis mellifera l,1
+bee apis mellifera,flight,1
+bee apis mellifera,apis mellifera l,1
+flight,apis mellifera l,1

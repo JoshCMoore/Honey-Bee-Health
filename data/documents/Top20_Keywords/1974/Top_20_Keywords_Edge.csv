@@ -1,0 +1,57 @@
+Source,Target,weight
+apis mellifera,apis mellifera food glands,1
+apis mellifera,apis mellifera l,1
+apis mellifera,amino acid,1
+apis mellifera,bees and biogenic amines,1
+apis mellifera,insects,1
+honey bee,apis mellifera food glands,1
+honey bee,apis mellifera l,1
+honey bee,amino acid,1
+honey bee,bees and biogenic amines,1
+honey bee,insects,1
+haemolymph,apis mellifera food glands,1
+haemolymph,apis mellifera l,1
+haemolymph,amino acid,1
+haemolymph,bees and biogenic amines,1
+haemolymph,insects,1
+robinia pseudo-acacia nectar,apis mellifera food glands,1
+robinia pseudo-acacia nectar,apis mellifera l,1
+robinia pseudo-acacia nectar,amino acid,1
+robinia pseudo-acacia nectar,bees and biogenic amines,1
+robinia pseudo-acacia nectar,insects,1
+light microscopy,apis mellifera food glands,1
+light microscopy,apis mellifera l,1
+light microscopy,amino acid,1
+light microscopy,bees and biogenic amines,1
+light microscopy,insects,1
+electrophoresis,apis mellifera food glands,1
+electrophoresis,apis mellifera l,1
+electrophoresis,amino acid,1
+electrophoresis,bees and biogenic amines,1
+electrophoresis,insects,1
+apis mellifera food glands,apis mellifera l,1
+apis mellifera food glands,amino acid,1
+apis mellifera food glands,bees and biogenic amines,1
+apis mellifera food glands,insects,1
+hemolymph,apis mellifera l,1
+hemolymph,amino acid,1
+hemolymph,bees and biogenic amines,1
+hemolymph,insects,1
+robinia pseudo-acacia honey,apis mellifera l,1
+robinia pseudo-acacia honey,amino acid,1
+robinia pseudo-acacia honey,bees and biogenic amines,1
+robinia pseudo-acacia honey,insects,1
+proteins,apis mellifera l,1
+proteins,amino acid,1
+proteins,bees and biogenic amines,1
+proteins,insects,1
+apis mellifera l,amino acid,1
+apis mellifera l,bees and biogenic amines,1
+apis mellifera l,insects,1
+amino acid,bees and biogenic amines,1
+amino acid,insects,1
+sambucus nigra and aesculus hippocastanum pollen,bees and biogenic amines,1
+sambucus nigra and aesculus hippocastanum pollen,insects,1
+quantitative determination,bees and biogenic amines,1
+quantitative determination,insects,1
+bees and biogenic amines,insects,1

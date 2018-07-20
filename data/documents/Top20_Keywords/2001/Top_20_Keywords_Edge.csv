@@ -1,0 +1,154 @@
+Source,Target,weight
+apis mellifera,honeybee,16
+apis mellifera,honey bees,4
+apis mellifera,honey bee,14
+apis mellifera,pollination,1
+apis mellifera,foraging,5
+apis mellifera,honeybees,7
+apis mellifera,hymenoptera,2
+apis mellifera,apis,36
+apis mellifera,pollen,1
+apis mellifera,apidae,25
+apis mellifera,insect,1
+apis mellifera,learning,1
+apis mellifera,communication,6
+apis mellifera,apis cerana,25
+apis mellifera,american foulbrood,23
+apis mellifera,africanized honey bees,26
+honeybee,honey bees,4
+honeybee,honey bee,14
+honeybee,pollination,1
+honeybee,foraging,5
+honeybee,honeybees,7
+honeybee,hymenoptera,2
+honeybee,apis,36
+honeybee,pollen,1
+honeybee,apidae,25
+honeybee,insect,1
+honeybee,learning,1
+honeybee,communication,6
+honeybee,apis cerana,25
+honeybee,american foulbrood,23
+honeybee,africanized honey bees,26
+honey bees,honey bee,14
+honey bees,pollination,1
+honey bees,foraging,5
+honey bees,honeybees,7
+honey bees,hymenoptera,2
+honey bees,apis,36
+honey bees,pollen,1
+honey bees,apidae,25
+honey bees,insect,1
+honey bees,learning,1
+honey bees,communication,6
+honey bees,apis cerana,25
+honey bees,american foulbrood,23
+honey bees,africanized honey bees,26
+honey bee,pollination,1
+honey bee,foraging,5
+honey bee,honeybees,7
+honey bee,hymenoptera,2
+honey bee,apis,36
+honey bee,pollen,1
+honey bee,apidae,25
+honey bee,insect,1
+honey bee,learning,1
+honey bee,communication,6
+honey bee,apis cerana,25
+honey bee,american foulbrood,23
+honey bee,africanized honey bees,26
+varroa jacobsoni,pollination,1
+varroa jacobsoni,foraging,5
+varroa jacobsoni,honeybees,7
+varroa jacobsoni,hymenoptera,2
+varroa jacobsoni,apis,36
+varroa jacobsoni,pollen,1
+varroa jacobsoni,apidae,25
+varroa jacobsoni,insect,1
+varroa jacobsoni,learning,1
+varroa jacobsoni,communication,6
+varroa jacobsoni,apis cerana,25
+varroa jacobsoni,american foulbrood,23
+varroa jacobsoni,africanized honey bees,26
+pollination,foraging,5
+pollination,honeybees,7
+pollination,hymenoptera,2
+pollination,apis,36
+pollination,pollen,1
+pollination,apidae,25
+pollination,insect,1
+pollination,learning,1
+pollination,communication,6
+pollination,apis cerana,25
+pollination,american foulbrood,23
+pollination,africanized honey bees,26
+foraging,honeybees,7
+foraging,hymenoptera,2
+foraging,apis,36
+foraging,pollen,1
+foraging,apidae,25
+foraging,insect,1
+foraging,learning,1
+foraging,communication,6
+foraging,apis cerana,25
+foraging,american foulbrood,23
+foraging,africanized honey bees,26
+honeybees,hymenoptera,2
+honeybees,apis,36
+honeybees,pollen,1
+honeybees,apidae,25
+honeybees,insect,1
+honeybees,learning,1
+honeybees,communication,6
+honeybees,apis cerana,25
+honeybees,american foulbrood,23
+honeybees,africanized honey bees,26
+hymenoptera,apis,36
+hymenoptera,pollen,1
+hymenoptera,apidae,25
+hymenoptera,insect,1
+hymenoptera,learning,1
+hymenoptera,communication,6
+hymenoptera,apis cerana,25
+hymenoptera,american foulbrood,23
+hymenoptera,africanized honey bees,26
+apis,pollen,1
+apis,apidae,25
+apis,insect,1
+apis,learning,1
+apis,communication,6
+apis,apis cerana,25
+apis,american foulbrood,23
+apis,africanized honey bees,26
+pollen,apidae,25
+pollen,insect,1
+pollen,learning,1
+pollen,communication,6
+pollen,apis cerana,25
+pollen,american foulbrood,23
+pollen,africanized honey bees,26
+apidae,insect,1
+apidae,learning,1
+apidae,communication,6
+apidae,apis cerana,25
+apidae,american foulbrood,23
+apidae,africanized honey bees,26
+insect,learning,1
+insect,communication,6
+insect,apis cerana,25
+insect,american foulbrood,23
+insect,africanized honey bees,26
+learning,communication,6
+learning,apis cerana,25
+learning,american foulbrood,23
+learning,africanized honey bees,26
+communication,apis cerana,25
+communication,american foulbrood,23
+communication,africanized honey bees,26
+apis cerana,american foulbrood,23
+apis cerana,africanized honey bees,26
+juvenile hormone,american foulbrood,23
+juvenile hormone,africanized honey bees,26
+mitochondrial dna,american foulbrood,23
+mitochondrial dna,africanized honey bees,26
+american foulbrood,africanized honey bees,26

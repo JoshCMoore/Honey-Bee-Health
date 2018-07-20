@@ -1,0 +1,119 @@
+Source,Target,weight
+apis mellifera,honeybee,2
+apis mellifera,honey bee,6
+apis mellifera,honey bees,3
+apis mellifera,hymenoptera,1
+apis mellifera,apidae,9
+apis mellifera,apis,8
+apis mellifera,insect,1
+apis mellifera,foraging,2
+apis mellifera,apis mellifera l.,3
+apis mellifera,bombus,2
+apis mellifera,bacillus larvae,1
+apis mellifera,age,3
+apis mellifera,drone,1
+honeybee,honey bee,6
+honeybee,honey bees,3
+honeybee,hymenoptera,1
+honeybee,apidae,9
+honeybee,apis,8
+honeybee,insect,1
+honeybee,foraging,2
+honeybee,apis mellifera l.,3
+honeybee,bombus,2
+honeybee,bacillus larvae,1
+honeybee,age,3
+honeybee,drone,1
+honey bee,honey bees,3
+honey bee,hymenoptera,1
+honey bee,apidae,9
+honey bee,apis,8
+honey bee,insect,1
+honey bee,foraging,2
+honey bee,apis mellifera l.,3
+honey bee,bombus,2
+honey bee,bacillus larvae,1
+honey bee,age,3
+honey bee,drone,1
+honey bees,hymenoptera,1
+honey bees,apidae,9
+honey bees,apis,8
+honey bees,insect,1
+honey bees,foraging,2
+honey bees,apis mellifera l.,3
+honey bees,bombus,2
+honey bees,bacillus larvae,1
+honey bees,age,3
+honey bees,drone,1
+hymenoptera,apidae,9
+hymenoptera,apis,8
+hymenoptera,insect,1
+hymenoptera,foraging,2
+hymenoptera,apis mellifera l.,3
+hymenoptera,bombus,2
+hymenoptera,bacillus larvae,1
+hymenoptera,age,3
+hymenoptera,drone,1
+apidae,apis,8
+apidae,insect,1
+apidae,foraging,2
+apidae,apis mellifera l.,3
+apidae,bombus,2
+apidae,bacillus larvae,1
+apidae,age,3
+apidae,drone,1
+pollination,apis,8
+pollination,insect,1
+pollination,foraging,2
+pollination,apis mellifera l.,3
+pollination,bombus,2
+pollination,bacillus larvae,1
+pollination,age,3
+pollination,drone,1
+apis,insect,1
+apis,foraging,2
+apis,apis mellifera l.,3
+apis,bombus,2
+apis,bacillus larvae,1
+apis,age,3
+apis,drone,1
+honeybees,insect,1
+honeybees,foraging,2
+honeybees,apis mellifera l.,3
+honeybees,bombus,2
+honeybees,bacillus larvae,1
+honeybees,age,3
+honeybees,drone,1
+insect,foraging,2
+insect,apis mellifera l.,3
+insect,bombus,2
+insect,bacillus larvae,1
+insect,age,3
+insect,drone,1
+foraging,apis mellifera l.,3
+foraging,bombus,2
+foraging,bacillus larvae,1
+foraging,age,3
+foraging,drone,1
+pheromone,apis mellifera l.,3
+pheromone,bombus,2
+pheromone,bacillus larvae,1
+pheromone,age,3
+pheromone,drone,1
+apis mellifera l.,bombus,2
+apis mellifera l.,bacillus larvae,1
+apis mellifera l.,age,3
+apis mellifera l.,drone,1
+varroa jacobsoni,bombus,2
+varroa jacobsoni,bacillus larvae,1
+varroa jacobsoni,age,3
+varroa jacobsoni,drone,1
+bombus,bacillus larvae,1
+bombus,age,3
+bombus,drone,1
+bacillus larvae,age,3
+bacillus larvae,drone,1
+nosema apis,age,3
+nosema apis,drone,1
+age,drone,1
+scanning electron microscopy,drone,1

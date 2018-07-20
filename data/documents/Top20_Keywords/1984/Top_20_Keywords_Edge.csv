@@ -1,0 +1,80 @@
+Source,Target,weight
+apis mellifera,honey bee,3
+apis mellifera,honeybee,1
+apis mellifera,apidae,1
+apis mellifera,apis mellifera l,1
+apis mellifera,foraging,1
+apis mellifera,apis mellifera l.,1
+apis mellifera,apis,3
+apis mellifera,biogenic amines,1
+honey bee,honeybee,1
+honey bee,apidae,1
+honey bee,apis mellifera l,1
+honey bee,foraging,1
+honey bee,apis mellifera l.,1
+honey bee,apis,3
+honey bee,biogenic amines,1
+honeybee,apidae,1
+honeybee,apis mellifera l,1
+honeybee,foraging,1
+honeybee,apis mellifera l.,1
+honeybee,apis,3
+honeybee,biogenic amines,1
+hymenoptera,apidae,1
+hymenoptera,apis mellifera l,1
+hymenoptera,foraging,1
+hymenoptera,apis mellifera l.,1
+hymenoptera,apis,3
+hymenoptera,biogenic amines,1
+apidae,apis mellifera l,1
+apidae,foraging,1
+apidae,apis mellifera l.,1
+apidae,apis,3
+apidae,biogenic amines,1
+pheromone,apis mellifera l,1
+pheromone,foraging,1
+pheromone,apis mellifera l.,1
+pheromone,apis,3
+pheromone,biogenic amines,1
+honey bees,apis mellifera l,1
+honey bees,foraging,1
+honey bees,apis mellifera l.,1
+honey bees,apis,3
+honey bees,biogenic amines,1
+nasonov pheromone,apis mellifera l,1
+nasonov pheromone,foraging,1
+nasonov pheromone,apis mellifera l.,1
+nasonov pheromone,apis,3
+nasonov pheromone,biogenic amines,1
+phospholipase a2,apis mellifera l,1
+phospholipase a2,foraging,1
+phospholipase a2,apis mellifera l.,1
+phospholipase a2,apis,3
+phospholipase a2,biogenic amines,1
+isozymes,apis mellifera l,1
+isozymes,foraging,1
+isozymes,apis mellifera l.,1
+isozymes,apis,3
+isozymes,biogenic amines,1
+apis mellifera l,foraging,1
+apis mellifera l,apis mellifera l.,1
+apis mellifera l,apis,3
+apis mellifera l,biogenic amines,1
+honeybees,foraging,1
+honeybees,apis mellifera l.,1
+honeybees,apis,3
+honeybees,biogenic amines,1
+foraging,apis mellifera l.,1
+foraging,apis,3
+foraging,biogenic amines,1
+haemolymph,apis mellifera l.,1
+haemolymph,apis,3
+haemolymph,biogenic amines,1
+apis mellifera l.,apis,3
+apis mellifera l.,biogenic amines,1
+polymorphism,apis,3
+polymorphism,biogenic amines,1
+insect visual system,apis,3
+insect visual system,biogenic amines,1
+apis,biogenic amines,1
+insect,biogenic amines,1

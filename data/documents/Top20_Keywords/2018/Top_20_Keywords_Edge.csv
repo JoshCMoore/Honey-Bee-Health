@@ -1,0 +1,137 @@
+Source,Target,weight
+apis mellifera,honeybee,94
+apis mellifera,honey bee,88
+apis mellifera,honey bees,40
+apis mellifera,pollination,4
+apis mellifera,honeybees,29
+apis mellifera,honey,27
+apis mellifera,foraging,18
+apis mellifera,pollen,1
+apis mellifera,propolis,1
+apis mellifera,hymenoptera,5
+apis mellifera,apis cerana,140
+apis mellifera,nosema ceranae,1
+apis mellifera,bees,91
+apis mellifera,insect,8
+apis mellifera,apis,93
+honeybee,honey bee,88
+honeybee,honey bees,40
+honeybee,pollination,4
+honeybee,honeybees,29
+honeybee,honey,27
+honeybee,foraging,18
+honeybee,pollen,1
+honeybee,propolis,1
+honeybee,hymenoptera,5
+honeybee,apis cerana,140
+honeybee,nosema ceranae,1
+honeybee,bees,91
+honeybee,insect,8
+honeybee,apis,93
+honey bee,honey bees,40
+honey bee,pollination,4
+honey bee,honeybees,29
+honey bee,honey,27
+honey bee,foraging,18
+honey bee,pollen,1
+honey bee,propolis,1
+honey bee,hymenoptera,5
+honey bee,apis cerana,140
+honey bee,nosema ceranae,1
+honey bee,bees,91
+honey bee,insect,8
+honey bee,apis,93
+varroa destructor,honey bees,40
+varroa destructor,pollination,4
+varroa destructor,honeybees,29
+varroa destructor,honey,27
+varroa destructor,foraging,18
+varroa destructor,pollen,1
+varroa destructor,propolis,1
+varroa destructor,hymenoptera,5
+varroa destructor,apis cerana,140
+varroa destructor,nosema ceranae,1
+varroa destructor,bees,91
+varroa destructor,insect,8
+varroa destructor,apis,93
+honey bees,pollination,4
+honey bees,honeybees,29
+honey bees,honey,27
+honey bees,foraging,18
+honey bees,pollen,1
+honey bees,propolis,1
+honey bees,hymenoptera,5
+honey bees,apis cerana,140
+honey bees,nosema ceranae,1
+honey bees,bees,91
+honey bees,insect,8
+honey bees,apis,93
+pollination,honeybees,29
+pollination,honey,27
+pollination,foraging,18
+pollination,pollen,1
+pollination,propolis,1
+pollination,hymenoptera,5
+pollination,apis cerana,140
+pollination,nosema ceranae,1
+pollination,bees,91
+pollination,insect,8
+pollination,apis,93
+honeybees,honey,27
+honeybees,foraging,18
+honeybees,pollen,1
+honeybees,propolis,1
+honeybees,hymenoptera,5
+honeybees,apis cerana,140
+honeybees,nosema ceranae,1
+honeybees,bees,91
+honeybees,insect,8
+honeybees,apis,93
+honey,foraging,18
+honey,pollen,1
+honey,propolis,1
+honey,hymenoptera,5
+honey,apis cerana,140
+honey,nosema ceranae,1
+honey,bees,91
+honey,insect,8
+honey,apis,93
+foraging,pollen,1
+foraging,propolis,1
+foraging,hymenoptera,5
+foraging,apis cerana,140
+foraging,nosema ceranae,1
+foraging,bees,91
+foraging,insect,8
+foraging,apis,93
+pollen,propolis,1
+pollen,hymenoptera,5
+pollen,apis cerana,140
+pollen,nosema ceranae,1
+pollen,bees,91
+pollen,insect,8
+pollen,apis,93
+propolis,hymenoptera,5
+propolis,apis cerana,140
+propolis,nosema ceranae,1
+propolis,bees,91
+propolis,insect,8
+propolis,apis,93
+hymenoptera,apis cerana,140
+hymenoptera,nosema ceranae,1
+hymenoptera,bees,91
+hymenoptera,insect,8
+hymenoptera,apis,93
+apis cerana,nosema ceranae,1
+apis cerana,bees,91
+apis cerana,insect,8
+apis cerana,apis,93
+nosema ceranae,bees,91
+nosema ceranae,insect,8
+nosema ceranae,apis,93
+bees,insect,8
+bees,apis,93
+varroa jacobsoni,insect,8
+varroa jacobsoni,apis,93
+insect,apis,93
+royal jelly,apis,93

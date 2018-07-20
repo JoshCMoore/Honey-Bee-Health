@@ -1,0 +1,107 @@
+Source,Target,weight
+apis mellifera,honeybee,3
+apis mellifera,honey bee,7
+apis mellifera,honey bees,3
+apis mellifera,hymenoptera,1
+apis mellifera,apidae,16
+apis mellifera,foraging,2
+apis mellifera,pollination,1
+apis mellifera,apis,13
+apis mellifera,honeybees,2
+apis mellifera,insect,1
+apis mellifera,bacillus larvae,1
+apis mellifera,bombus,2
+apis mellifera,apis cerana,8
+honeybee,honey bee,7
+honeybee,honey bees,3
+honeybee,hymenoptera,1
+honeybee,apidae,16
+honeybee,foraging,2
+honeybee,pollination,1
+honeybee,apis,13
+honeybee,honeybees,2
+honeybee,insect,1
+honeybee,bacillus larvae,1
+honeybee,bombus,2
+honeybee,apis cerana,8
+honey bee,honey bees,3
+honey bee,hymenoptera,1
+honey bee,apidae,16
+honey bee,foraging,2
+honey bee,pollination,1
+honey bee,apis,13
+honey bee,honeybees,2
+honey bee,insect,1
+honey bee,bacillus larvae,1
+honey bee,bombus,2
+honey bee,apis cerana,8
+honey bees,hymenoptera,1
+honey bees,apidae,16
+honey bees,foraging,2
+honey bees,pollination,1
+honey bees,apis,13
+honey bees,honeybees,2
+honey bees,insect,1
+honey bees,bacillus larvae,1
+honey bees,bombus,2
+honey bees,apis cerana,8
+hymenoptera,apidae,16
+hymenoptera,foraging,2
+hymenoptera,pollination,1
+hymenoptera,apis,13
+hymenoptera,honeybees,2
+hymenoptera,insect,1
+hymenoptera,bacillus larvae,1
+hymenoptera,bombus,2
+hymenoptera,apis cerana,8
+apidae,foraging,2
+apidae,pollination,1
+apidae,apis,13
+apidae,honeybees,2
+apidae,insect,1
+apidae,bacillus larvae,1
+apidae,bombus,2
+apidae,apis cerana,8
+foraging,pollination,1
+foraging,apis,13
+foraging,honeybees,2
+foraging,insect,1
+foraging,bacillus larvae,1
+foraging,bombus,2
+foraging,apis cerana,8
+pollination,apis,13
+pollination,honeybees,2
+pollination,insect,1
+pollination,bacillus larvae,1
+pollination,bombus,2
+pollination,apis cerana,8
+varroa jacobsoni,apis,13
+varroa jacobsoni,honeybees,2
+varroa jacobsoni,insect,1
+varroa jacobsoni,bacillus larvae,1
+varroa jacobsoni,bombus,2
+varroa jacobsoni,apis cerana,8
+apis,honeybees,2
+apis,insect,1
+apis,bacillus larvae,1
+apis,bombus,2
+apis,apis cerana,8
+honeybees,insect,1
+honeybees,bacillus larvae,1
+honeybees,bombus,2
+honeybees,apis cerana,8
+insect,bacillus larvae,1
+insect,bombus,2
+insect,apis cerana,8
+pollen,bacillus larvae,1
+pollen,bombus,2
+pollen,apis cerana,8
+pheromone,bacillus larvae,1
+pheromone,bombus,2
+pheromone,apis cerana,8
+bacillus larvae,bombus,2
+bacillus larvae,apis cerana,8
+bombus,apis cerana,8
+communication,apis cerana,8
+juvenile hormone,apis cerana,8
+mitochondrial dna,apis cerana,8

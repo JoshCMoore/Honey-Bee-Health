@@ -1,0 +1,5 @@
+Source,Target,weight
+insect cholinesterase,bees and biogenic amines,1
+insect cholinesterase,acetylcholinesterase,1
+bees and biogenic amines,acetylcholinesterase,1
+isozymes,acetylcholinesterase,1

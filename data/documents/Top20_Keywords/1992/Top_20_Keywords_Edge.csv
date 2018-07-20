@@ -1,0 +1,95 @@
+Source,Target,weight
+apis mellifera,honeybee,2
+apis mellifera,honey bee,6
+apis mellifera,honey bees,3
+apis mellifera,hymenoptera,1
+apis mellifera,apidae,10
+apis mellifera,foraging,2
+apis mellifera,apis,8
+apis mellifera,honeybees,1
+apis mellifera,insect,1
+apis mellifera,apis mellifera l.,3
+apis mellifera,bombus,2
+apis mellifera,bacillus larvae,1
+honeybee,honey bee,6
+honeybee,honey bees,3
+honeybee,hymenoptera,1
+honeybee,apidae,10
+honeybee,foraging,2
+honeybee,apis,8
+honeybee,honeybees,1
+honeybee,insect,1
+honeybee,apis mellifera l.,3
+honeybee,bombus,2
+honeybee,bacillus larvae,1
+honey bee,honey bees,3
+honey bee,hymenoptera,1
+honey bee,apidae,10
+honey bee,foraging,2
+honey bee,apis,8
+honey bee,honeybees,1
+honey bee,insect,1
+honey bee,apis mellifera l.,3
+honey bee,bombus,2
+honey bee,bacillus larvae,1
+honey bees,hymenoptera,1
+honey bees,apidae,10
+honey bees,foraging,2
+honey bees,apis,8
+honey bees,honeybees,1
+honey bees,insect,1
+honey bees,apis mellifera l.,3
+honey bees,bombus,2
+honey bees,bacillus larvae,1
+hymenoptera,apidae,10
+hymenoptera,foraging,2
+hymenoptera,apis,8
+hymenoptera,honeybees,1
+hymenoptera,insect,1
+hymenoptera,apis mellifera l.,3
+hymenoptera,bombus,2
+hymenoptera,bacillus larvae,1
+apidae,foraging,2
+apidae,apis,8
+apidae,honeybees,1
+apidae,insect,1
+apidae,apis mellifera l.,3
+apidae,bombus,2
+apidae,bacillus larvae,1
+pollination,foraging,2
+pollination,apis,8
+pollination,honeybees,1
+pollination,insect,1
+pollination,apis mellifera l.,3
+pollination,bombus,2
+pollination,bacillus larvae,1
+foraging,apis,8
+foraging,honeybees,1
+foraging,insect,1
+foraging,apis mellifera l.,3
+foraging,bombus,2
+foraging,bacillus larvae,1
+apis,honeybees,1
+apis,insect,1
+apis,apis mellifera l.,3
+apis,bombus,2
+apis,bacillus larvae,1
+honeybees,insect,1
+honeybees,apis mellifera l.,3
+honeybees,bombus,2
+honeybees,bacillus larvae,1
+varroa jacobsoni,insect,1
+varroa jacobsoni,apis mellifera l.,3
+varroa jacobsoni,bombus,2
+varroa jacobsoni,bacillus larvae,1
+insect,apis mellifera l.,3
+insect,bombus,2
+insect,bacillus larvae,1
+pheromone,apis mellifera l.,3
+pheromone,bombus,2
+pheromone,bacillus larvae,1
+apis mellifera l.,bombus,2
+apis mellifera l.,bacillus larvae,1
+bombus,bacillus larvae,1
+pollen,bacillus larvae,1
+queen,bacillus larvae,1

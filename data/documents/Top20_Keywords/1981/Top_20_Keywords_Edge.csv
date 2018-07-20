@@ -1,0 +1,10 @@
+Source,Target,weight
+apis mellifera,honey bee,2
+apis mellifera,honeybee,1
+apis mellifera,apis mellifera l,1
+honey bee,honeybee,1
+honey bee,apis mellifera l,1
+honeybee,apis mellifera l,1
+honey bees,apis mellifera l,1
+insect visual system,apis mellifera l,1
+nasonov pheromone,apis mellifera l,1

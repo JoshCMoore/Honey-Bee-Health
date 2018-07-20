@@ -1,0 +1,100 @@
+Source,Target,weight
+apis mellifera,honey bees,3
+apis mellifera,honeybee,4
+apis mellifera,honey bee,7
+apis mellifera,hymenoptera,1
+apis mellifera,apidae,17
+apis mellifera,foraging,2
+apis mellifera,pollination,1
+apis mellifera,apis,15
+apis mellifera,honeybees,2
+apis mellifera,insect,1
+apis mellifera,africanized honey bees,11
+apis mellifera,reproduction,1
+honey bees,honeybee,4
+honey bees,honey bee,7
+honey bees,hymenoptera,1
+honey bees,apidae,17
+honey bees,foraging,2
+honey bees,pollination,1
+honey bees,apis,15
+honey bees,honeybees,2
+honey bees,insect,1
+honey bees,africanized honey bees,11
+honey bees,reproduction,1
+honeybee,honey bee,7
+honeybee,hymenoptera,1
+honeybee,apidae,17
+honeybee,foraging,2
+honeybee,pollination,1
+honeybee,apis,15
+honeybee,honeybees,2
+honeybee,insect,1
+honeybee,africanized honey bees,11
+honeybee,reproduction,1
+honey bee,hymenoptera,1
+honey bee,apidae,17
+honey bee,foraging,2
+honey bee,pollination,1
+honey bee,apis,15
+honey bee,honeybees,2
+honey bee,insect,1
+honey bee,africanized honey bees,11
+honey bee,reproduction,1
+varroa jacobsoni,hymenoptera,1
+varroa jacobsoni,apidae,17
+varroa jacobsoni,foraging,2
+varroa jacobsoni,pollination,1
+varroa jacobsoni,apis,15
+varroa jacobsoni,honeybees,2
+varroa jacobsoni,insect,1
+varroa jacobsoni,africanized honey bees,11
+varroa jacobsoni,reproduction,1
+hymenoptera,apidae,17
+hymenoptera,foraging,2
+hymenoptera,pollination,1
+hymenoptera,apis,15
+hymenoptera,honeybees,2
+hymenoptera,insect,1
+hymenoptera,africanized honey bees,11
+hymenoptera,reproduction,1
+apidae,foraging,2
+apidae,pollination,1
+apidae,apis,15
+apidae,honeybees,2
+apidae,insect,1
+apidae,africanized honey bees,11
+apidae,reproduction,1
+foraging,pollination,1
+foraging,apis,15
+foraging,honeybees,2
+foraging,insect,1
+foraging,africanized honey bees,11
+foraging,reproduction,1
+pollination,apis,15
+pollination,honeybees,2
+pollination,insect,1
+pollination,africanized honey bees,11
+pollination,reproduction,1
+apis,honeybees,2
+apis,insect,1
+apis,africanized honey bees,11
+apis,reproduction,1
+honeybees,insect,1
+honeybees,africanized honey bees,11
+honeybees,reproduction,1
+insect,africanized honey bees,11
+insect,reproduction,1
+mitochondrial dna,africanized honey bees,11
+mitochondrial dna,reproduction,1
+pollen,africanized honey bees,11
+pollen,reproduction,1
+pheromone,africanized honey bees,11
+pheromone,reproduction,1
+social insects,africanized honey bees,11
+social insects,reproduction,1
+communication,africanized honey bees,11
+communication,reproduction,1
+juvenile hormone,africanized honey bees,11
+juvenile hormone,reproduction,1
+africanized honey bees,reproduction,1

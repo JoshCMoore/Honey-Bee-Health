@@ -1,0 +1,72 @@
+Source,Target,weight
+apis mellifera,honey bee,4
+apis mellifera,honeybee,2
+apis mellifera,apidae,6
+apis mellifera,honey bees,1
+apis mellifera,apis,5
+apis mellifera,insect,1
+apis mellifera,foraging,2
+apis mellifera,apis mellifera l.,2
+apis mellifera,bombus,1
+honey bee,honeybee,2
+honey bee,apidae,6
+honey bee,honey bees,1
+honey bee,apis,5
+honey bee,insect,1
+honey bee,foraging,2
+honey bee,apis mellifera l.,2
+honey bee,bombus,1
+honeybee,apidae,6
+honeybee,honey bees,1
+honeybee,apis,5
+honeybee,insect,1
+honeybee,foraging,2
+honeybee,apis mellifera l.,2
+honeybee,bombus,1
+hymenoptera,apidae,6
+hymenoptera,honey bees,1
+hymenoptera,apis,5
+hymenoptera,insect,1
+hymenoptera,foraging,2
+hymenoptera,apis mellifera l.,2
+hymenoptera,bombus,1
+apidae,honey bees,1
+apidae,apis,5
+apidae,insect,1
+apidae,foraging,2
+apidae,apis mellifera l.,2
+apidae,bombus,1
+honey bees,apis,5
+honey bees,insect,1
+honey bees,foraging,2
+honey bees,apis mellifera l.,2
+honey bees,bombus,1
+pollination,apis,5
+pollination,insect,1
+pollination,foraging,2
+pollination,apis mellifera l.,2
+pollination,bombus,1
+pheromone,apis,5
+pheromone,insect,1
+pheromone,foraging,2
+pheromone,apis mellifera l.,2
+pheromone,bombus,1
+apis,insect,1
+apis,foraging,2
+apis,apis mellifera l.,2
+apis,bombus,1
+insect,foraging,2
+insect,apis mellifera l.,2
+insect,bombus,1
+honeybees,foraging,2
+honeybees,apis mellifera l.,2
+honeybees,bombus,1
+foraging,apis mellifera l.,2
+foraging,bombus,1
+apis mellifera l.,bombus,1
+varroa jacobsoni,bombus,1
+royal jelly,bombus,1
+scanning electron microscopy,bombus,1
+queen,bombus,1
+insect brain,bombus,1
+haemolymph,bombus,1

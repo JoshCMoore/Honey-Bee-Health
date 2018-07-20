@@ -1,0 +1,84 @@
+Source,Target,weight
+apis mellifera,honeybee,2
+apis mellifera,honey bee,5
+apis mellifera,apidae,8
+apis mellifera,honey bees,2
+apis mellifera,apis,6
+apis mellifera,insect,1
+apis mellifera,foraging,2
+apis mellifera,apis mellifera l.,3
+apis mellifera,bacillus larvae,1
+apis mellifera,bombus,2
+honeybee,honey bee,5
+honeybee,apidae,8
+honeybee,honey bees,2
+honeybee,apis,6
+honeybee,insect,1
+honeybee,foraging,2
+honeybee,apis mellifera l.,3
+honeybee,bacillus larvae,1
+honeybee,bombus,2
+honey bee,apidae,8
+honey bee,honey bees,2
+honey bee,apis,6
+honey bee,insect,1
+honey bee,foraging,2
+honey bee,apis mellifera l.,3
+honey bee,bacillus larvae,1
+honey bee,bombus,2
+hymenoptera,apidae,8
+hymenoptera,honey bees,2
+hymenoptera,apis,6
+hymenoptera,insect,1
+hymenoptera,foraging,2
+hymenoptera,apis mellifera l.,3
+hymenoptera,bacillus larvae,1
+hymenoptera,bombus,2
+apidae,honey bees,2
+apidae,apis,6
+apidae,insect,1
+apidae,foraging,2
+apidae,apis mellifera l.,3
+apidae,bacillus larvae,1
+apidae,bombus,2
+honey bees,apis,6
+honey bees,insect,1
+honey bees,foraging,2
+honey bees,apis mellifera l.,3
+honey bees,bacillus larvae,1
+honey bees,bombus,2
+pollination,apis,6
+pollination,insect,1
+pollination,foraging,2
+pollination,apis mellifera l.,3
+pollination,bacillus larvae,1
+pollination,bombus,2
+apis,insect,1
+apis,foraging,2
+apis,apis mellifera l.,3
+apis,bacillus larvae,1
+apis,bombus,2
+honeybees,insect,1
+honeybees,foraging,2
+honeybees,apis mellifera l.,3
+honeybees,bacillus larvae,1
+honeybees,bombus,2
+pheromone,insect,1
+pheromone,foraging,2
+pheromone,apis mellifera l.,3
+pheromone,bacillus larvae,1
+pheromone,bombus,2
+insect,foraging,2
+insect,apis mellifera l.,3
+insect,bacillus larvae,1
+insect,bombus,2
+foraging,apis mellifera l.,3
+foraging,bacillus larvae,1
+foraging,bombus,2
+apis mellifera l.,bacillus larvae,1
+apis mellifera l.,bombus,2
+nosema apis,bacillus larvae,1
+nosema apis,bombus,2
+bacillus larvae,bombus,2
+varroa jacobsoni,bombus,2
+hypopharyngeal glands,bombus,2

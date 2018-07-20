@@ -1,0 +1,137 @@
+Source,Target,weight
+apis mellifera,honeybee,28
+apis mellifera,honey bee,22
+apis mellifera,honey bees,8
+apis mellifera,pollination,2
+apis mellifera,honeybees,10
+apis mellifera,foraging,9
+apis mellifera,hymenoptera,3
+apis mellifera,apis,49
+apis mellifera,pollen,1
+apis mellifera,insect,3
+apis mellifera,honey,6
+apis mellifera,apis cerana,43
+apis mellifera,learning,1
+apis mellifera,apidae,30
+honeybee,honey bee,22
+honeybee,honey bees,8
+honeybee,pollination,2
+honeybee,honeybees,10
+honeybee,foraging,9
+honeybee,hymenoptera,3
+honeybee,apis,49
+honeybee,pollen,1
+honeybee,insect,3
+honeybee,honey,6
+honeybee,apis cerana,43
+honeybee,learning,1
+honeybee,apidae,30
+honey bee,honey bees,8
+honey bee,pollination,2
+honey bee,honeybees,10
+honey bee,foraging,9
+honey bee,hymenoptera,3
+honey bee,apis,49
+honey bee,pollen,1
+honey bee,insect,3
+honey bee,honey,6
+honey bee,apis cerana,43
+honey bee,learning,1
+honey bee,apidae,30
+honey bees,pollination,2
+honey bees,honeybees,10
+honey bees,foraging,9
+honey bees,hymenoptera,3
+honey bees,apis,49
+honey bees,pollen,1
+honey bees,insect,3
+honey bees,honey,6
+honey bees,apis cerana,43
+honey bees,learning,1
+honey bees,apidae,30
+varroa jacobsoni,pollination,2
+varroa jacobsoni,honeybees,10
+varroa jacobsoni,foraging,9
+varroa jacobsoni,hymenoptera,3
+varroa jacobsoni,apis,49
+varroa jacobsoni,pollen,1
+varroa jacobsoni,insect,3
+varroa jacobsoni,honey,6
+varroa jacobsoni,apis cerana,43
+varroa jacobsoni,learning,1
+varroa jacobsoni,apidae,30
+pollination,honeybees,10
+pollination,foraging,9
+pollination,hymenoptera,3
+pollination,apis,49
+pollination,pollen,1
+pollination,insect,3
+pollination,honey,6
+pollination,apis cerana,43
+pollination,learning,1
+pollination,apidae,30
+varroa destructor,honeybees,10
+varroa destructor,foraging,9
+varroa destructor,hymenoptera,3
+varroa destructor,apis,49
+varroa destructor,pollen,1
+varroa destructor,insect,3
+varroa destructor,honey,6
+varroa destructor,apis cerana,43
+varroa destructor,learning,1
+varroa destructor,apidae,30
+honeybees,foraging,9
+honeybees,hymenoptera,3
+honeybees,apis,49
+honeybees,pollen,1
+honeybees,insect,3
+honeybees,honey,6
+honeybees,apis cerana,43
+honeybees,learning,1
+honeybees,apidae,30
+foraging,hymenoptera,3
+foraging,apis,49
+foraging,pollen,1
+foraging,insect,3
+foraging,honey,6
+foraging,apis cerana,43
+foraging,learning,1
+foraging,apidae,30
+hymenoptera,apis,49
+hymenoptera,pollen,1
+hymenoptera,insect,3
+hymenoptera,honey,6
+hymenoptera,apis cerana,43
+hymenoptera,learning,1
+hymenoptera,apidae,30
+apis,pollen,1
+apis,insect,3
+apis,honey,6
+apis,apis cerana,43
+apis,learning,1
+apis,apidae,30
+pollen,insect,3
+pollen,honey,6
+pollen,apis cerana,43
+pollen,learning,1
+pollen,apidae,30
+insect,honey,6
+insect,apis cerana,43
+insect,learning,1
+insect,apidae,30
+propolis,honey,6
+propolis,apis cerana,43
+propolis,learning,1
+propolis,apidae,30
+juvenile hormone,honey,6
+juvenile hormone,apis cerana,43
+juvenile hormone,learning,1
+juvenile hormone,apidae,30
+honey,apis cerana,43
+honey,learning,1
+honey,apidae,30
+apis cerana,learning,1
+apis cerana,apidae,30
+royal jelly,learning,1
+royal jelly,apidae,30
+learning,apidae,30

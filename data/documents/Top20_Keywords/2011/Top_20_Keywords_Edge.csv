@@ -1,0 +1,133 @@
+Source,Target,weight
+apis mellifera,honeybee,57
+apis mellifera,honey bee,42
+apis mellifera,honey bees,25
+apis mellifera,pollination,3
+apis mellifera,honeybees,19
+apis mellifera,foraging,15
+apis mellifera,pollen,1
+apis mellifera,honey,14
+apis mellifera,hymenoptera,3
+apis mellifera,insect,5
+apis mellifera,apis,71
+apis mellifera,american foulbrood,73
+apis mellifera,apis cerana,81
+apis mellifera,bees,52
+honeybee,honey bee,42
+honeybee,honey bees,25
+honeybee,pollination,3
+honeybee,honeybees,19
+honeybee,foraging,15
+honeybee,pollen,1
+honeybee,honey,14
+honeybee,hymenoptera,3
+honeybee,insect,5
+honeybee,apis,71
+honeybee,american foulbrood,73
+honeybee,apis cerana,81
+honeybee,bees,52
+honey bee,honey bees,25
+honey bee,pollination,3
+honey bee,honeybees,19
+honey bee,foraging,15
+honey bee,pollen,1
+honey bee,honey,14
+honey bee,hymenoptera,3
+honey bee,insect,5
+honey bee,apis,71
+honey bee,american foulbrood,73
+honey bee,apis cerana,81
+honey bee,bees,52
+honey bees,pollination,3
+honey bees,honeybees,19
+honey bees,foraging,15
+honey bees,pollen,1
+honey bees,honey,14
+honey bees,hymenoptera,3
+honey bees,insect,5
+honey bees,apis,71
+honey bees,american foulbrood,73
+honey bees,apis cerana,81
+honey bees,bees,52
+pollination,honeybees,19
+pollination,foraging,15
+pollination,pollen,1
+pollination,honey,14
+pollination,hymenoptera,3
+pollination,insect,5
+pollination,apis,71
+pollination,american foulbrood,73
+pollination,apis cerana,81
+pollination,bees,52
+varroa destructor,honeybees,19
+varroa destructor,foraging,15
+varroa destructor,pollen,1
+varroa destructor,honey,14
+varroa destructor,hymenoptera,3
+varroa destructor,insect,5
+varroa destructor,apis,71
+varroa destructor,american foulbrood,73
+varroa destructor,apis cerana,81
+varroa destructor,bees,52
+honeybees,foraging,15
+honeybees,pollen,1
+honeybees,honey,14
+honeybees,hymenoptera,3
+honeybees,insect,5
+honeybees,apis,71
+honeybees,american foulbrood,73
+honeybees,apis cerana,81
+honeybees,bees,52
+foraging,pollen,1
+foraging,honey,14
+foraging,hymenoptera,3
+foraging,insect,5
+foraging,apis,71
+foraging,american foulbrood,73
+foraging,apis cerana,81
+foraging,bees,52
+varroa jacobsoni,pollen,1
+varroa jacobsoni,honey,14
+varroa jacobsoni,hymenoptera,3
+varroa jacobsoni,insect,5
+varroa jacobsoni,apis,71
+varroa jacobsoni,american foulbrood,73
+varroa jacobsoni,apis cerana,81
+varroa jacobsoni,bees,52
+pollen,honey,14
+pollen,hymenoptera,3
+pollen,insect,5
+pollen,apis,71
+pollen,american foulbrood,73
+pollen,apis cerana,81
+pollen,bees,52
+honey,hymenoptera,3
+honey,insect,5
+honey,apis,71
+honey,american foulbrood,73
+honey,apis cerana,81
+honey,bees,52
+hymenoptera,insect,5
+hymenoptera,apis,71
+hymenoptera,american foulbrood,73
+hymenoptera,apis cerana,81
+hymenoptera,bees,52
+propolis,insect,5
+propolis,apis,71
+propolis,american foulbrood,73
+propolis,apis cerana,81
+propolis,bees,52
+insect,apis,71
+insect,american foulbrood,73
+insect,apis cerana,81
+insect,bees,52
+apis,american foulbrood,73
+apis,apis cerana,81
+apis,bees,52
+social insects,american foulbrood,73
+social insects,apis cerana,81
+social insects,bees,52
+american foulbrood,apis cerana,81
+american foulbrood,bees,52
+apis cerana,bees,52
+royal jelly,bees,52
