@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-07-20">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="88" label="polyphen">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="89" label="phenotyp plastic">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="220" g="133" b="120"></viz:color>
+      </node>
+      <node id="110" label="speci rich">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="245" g="213" b="192"></viz:color>
+      </node>
+      <node id="111" label="social">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="245" g="213" b="192"></viz:color>
+      </node>
+      <node id="112" label="insemin">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="113" label="energet stress">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="114" label="rna-seq">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="245" g="213" b="192"></viz:color>
+      </node>
+      <node id="115" label="caatinga">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="116" label="lipid peroxid">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="90" label="singl nucleotid polymorph">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="245" g="213" b="192"></viz:color>
+      </node>
+      <node id="117" label="palynolog">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="91" label="physicochem analysi">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="118" label="bulgaria">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="92" label="nosema spp.">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="119" label="honey bee health">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="93" label="trophocyt">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="94" label="bioinformat">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="95" label="api mellifera jemenitica">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="96" label="abund">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="245" g="213" b="192"></viz:color>
+      </node>
+      <node id="97" label="color">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="98" label="lc50">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="99" label="agricultur landscap">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="120" label="agent-bas model">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="121" label="phosphoproteom">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="122" label="tropilaelap mercedesa">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="73" label="coloni collaps disord">
+        <viz:size value="90.0"></viz:size>
+        <viz:color r="179" g="0" b="0"></viz:color>
+      </node>
+      <node id="74" label="coloni loss">
+        <viz:size value="84.0"></viz:size>
+        <viz:color r="179" g="0" b="0"></viz:color>
+      </node>
+      <node id="75" label="dna methyl">
+        <viz:size value="68.0"></viz:size>
+        <viz:color r="195" g="53" b="48"></viz:color>
+      </node>
+      <node id="76" label="transcriptom">
+        <viz:size value="64.0"></viz:size>
+        <viz:color r="212" g="106" b="96"></viz:color>
+      </node>
+      <node id="77" label="coloss">
+        <viz:size value="64.0"></viz:size>
+        <viz:color r="204" g="79" b="72"></viz:color>
+      </node>
+      <node id="78" label="real-tim pcr">
+        <viz:size value="58.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="79" label="beebook">
+        <viz:size value="52.0"></viz:size>
+        <viz:color r="212" g="106" b="96"></viz:color>
+      </node>
+      <node id="100" label="lactobacillu">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="101" label="anthophila">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="102" label="nosema spp">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="103" label="floral trait">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="104" label="food">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="105" label="api mellifera iberiensi">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="245" g="213" b="192"></viz:color>
+      </node>
+      <node id="106" label="biomark">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="80" label="social immun">
+        <viz:size value="44.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="107" label="food safeti">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="81" label="epigenet">
+        <viz:size value="44.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="108" label="lamiacea">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="82" label="clothianidin">
+        <viz:size value="44.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="109" label="varroa sensit hygien">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="83" label="nosemosi">
+        <viz:size value="38.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="84" label="saudi arabia">
+        <viz:size value="32.0"></viz:size>
+        <viz:color r="237" g="186" b="168"></viz:color>
+      </node>
+      <node id="85" label="microrna">
+        <viz:size value="32.0"></viz:size>
+        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      </node>
+      <node id="86" label="ccd">
+        <viz:size value="30.0"></viz:size>
+        <viz:color r="204" g="79" b="72"></viz:color>
+      </node>
+      <node id="87" label="honey bee virus">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="220" g="133" b="120"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="73" target="119"></edge>
+      <edge id="1" source="73" target="79"></edge>
+      <edge id="2" source="73" target="77"></edge>
+      <edge id="3" source="73" target="80"></edge>
+      <edge id="4" source="73" target="87"></edge>
+      <edge id="5" source="73" target="94" weight="2.0"></edge>
+      <edge id="6" source="73" target="74"></edge>
+      <edge id="7" source="73" target="82"></edge>
+      <edge id="8" source="73" target="86" weight="4.0"></edge>
+      <edge id="9" source="74" target="79"></edge>
+      <edge id="10" source="74" target="77" weight="3.0"></edge>
+      <edge id="11" source="74" target="102"></edge>
+      <edge id="12" source="74" target="87"></edge>
+      <edge id="13" source="74" target="119"></edge>
+      <edge id="14" source="74" target="82" weight="2.0"></edge>
+      <edge id="15" source="74" target="83" weight="2.0"></edge>
+      <edge id="16" source="74" target="73"></edge>
+      <edge id="17" source="74" target="86" weight="2.0"></edge>
+      <edge id="18" source="75" target="81" weight="12.0"></edge>
+      <edge id="19" source="75" target="85"></edge>
+      <edge id="20" source="75" target="92"></edge>
+      <edge id="21" source="75" target="102"></edge>
+      <edge id="22" source="75" target="88" weight="3.0"></edge>
+      <edge id="23" source="75" target="106"></edge>
+      <edge id="24" source="75" target="89" weight="3.0"></edge>
+      <edge id="25" source="76" target="85"></edge>
+      <edge id="26" source="76" target="80"></edge>
+      <edge id="27" source="76" target="114" weight="4.0"></edge>
+      <edge id="28" source="76" target="89"></edge>
+      <edge id="29" source="76" target="111"></edge>
+      <edge id="30" source="77" target="79" weight="26.0"></edge>
+      <edge id="31" source="77" target="122"></edge>
+      <edge id="32" source="77" target="112"></edge>
+      <edge id="33" source="77" target="74" weight="3.0"></edge>
+      <edge id="34" source="77" target="73"></edge>
+      <edge id="35" source="77" target="86"></edge>
+      <edge id="36" source="79" target="122"></edge>
+      <edge id="37" source="79" target="112"></edge>
+      <edge id="38" source="79" target="77" weight="26.0"></edge>
+      <edge id="39" source="79" target="74"></edge>
+      <edge id="40" source="79" target="73"></edge>
+      <edge id="41" source="80" target="73"></edge>
+      <edge id="42" source="80" target="76"></edge>
+      <edge id="43" source="81" target="75" weight="12.0"></edge>
+      <edge id="44" source="81" target="88"></edge>
+      <edge id="45" source="81" target="89" weight="4.0"></edge>
+      <edge id="46" source="82" target="74" weight="2.0"></edge>
+      <edge id="47" source="82" target="73"></edge>
+      <edge id="48" source="82" target="86"></edge>
+      <edge id="49" source="83" target="74" weight="2.0"></edge>
+      <edge id="50" source="83" target="86" weight="2.0"></edge>
+      <edge id="51" source="84" target="95" weight="5.0"></edge>
+      <edge id="52" source="84" target="101" weight="2.0"></edge>
+      <edge id="53" source="85" target="94"></edge>
+      <edge id="54" source="85" target="75"></edge>
+      <edge id="55" source="85" target="76"></edge>
+      <edge id="56" source="86" target="83" weight="2.0"></edge>
+      <edge id="57" source="86" target="73" weight="4.0"></edge>
+      <edge id="58" source="86" target="74" weight="2.0"></edge>
+      <edge id="59" source="86" target="77"></edge>
+      <edge id="60" source="86" target="82"></edge>
+      <edge id="61" source="86" target="87"></edge>
+      <edge id="62" source="87" target="94"></edge>
+      <edge id="63" source="87" target="73"></edge>
+      <edge id="64" source="87" target="74"></edge>
+      <edge id="65" source="87" target="86"></edge>
+      <edge id="66" source="88" target="81"></edge>
+      <edge id="67" source="88" target="75" weight="3.0"></edge>
+      <edge id="68" source="88" target="89" weight="2.0"></edge>
+      <edge id="69" source="89" target="81" weight="4.0"></edge>
+      <edge id="70" source="89" target="75" weight="3.0"></edge>
+      <edge id="71" source="89" target="88" weight="2.0"></edge>
+      <edge id="72" source="89" target="76"></edge>
+      <edge id="73" source="90" target="105"></edge>
+      <edge id="74" source="92" target="75"></edge>
+      <edge id="75" source="92" target="106"></edge>
+      <edge id="76" source="94" target="85"></edge>
+      <edge id="77" source="94" target="73" weight="2.0"></edge>
+      <edge id="78" source="94" target="87"></edge>
+      <edge id="79" source="95" target="101"></edge>
+      <edge id="80" source="95" target="84" weight="5.0"></edge>
+      <edge id="81" source="96" target="110" weight="2.0"></edge>
+      <edge id="82" source="101" target="95"></edge>
+      <edge id="83" source="101" target="84" weight="2.0"></edge>
+      <edge id="84" source="102" target="75"></edge>
+      <edge id="85" source="102" target="119"></edge>
+      <edge id="86" source="102" target="74"></edge>
+      <edge id="87" source="105" target="90"></edge>
+      <edge id="88" source="106" target="75"></edge>
+      <edge id="89" source="106" target="92"></edge>
+      <edge id="90" source="110" target="96" weight="2.0"></edge>
+      <edge id="91" source="111" target="76"></edge>
+      <edge id="92" source="112" target="79"></edge>
+      <edge id="93" source="112" target="77"></edge>
+      <edge id="94" source="114" target="76" weight="4.0"></edge>
+      <edge id="95" source="119" target="102"></edge>
+      <edge id="96" source="119" target="73"></edge>
+      <edge id="97" source="119" target="74"></edge>
+      <edge id="98" source="122" target="77"></edge>
+      <edge id="99" source="122" target="79"></edge>
+    </edges>
+  </graph>
+</gexf>

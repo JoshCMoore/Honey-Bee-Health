@@ -1,245 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2018-07-18">
+  <meta lastmodifieddate="2018-07-20">
     <creator>Gephi 0.9</creator>
     <description></description>
   </meta>
   <graph defaultedgetype="undirected" mode="static">
     <nodes>
-      <node id="89" label="tnfâ€�beta">
+      <node id="46" label="mtdna">
         <viz:size value="6.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="45" label="day">
-        <viz:size value="10.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="150" label="european">
+      <node id="48" label="visitor">
         <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="216" g="120" b="108"></viz:color>
       </node>
-      <node id="153" label="temperatur">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="154" label="swarm">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="155" label="nurs">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="90" label="signal">
+      <node id="49" label="day">
         <viz:size value="12.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="179" g="0" b="0"></viz:color>
       </node>
-      <node id="93" label="coloni">
+      <node id="151" label="signal">
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="111" label="flower">
         <viz:size value="36.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="216" g="120" b="108"></viz:color>
       </node>
-      <node id="52" label="visitor">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="53" label="infloresc">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="179" g="0" b="0"></viz:color>
-      </node>
-      <node id="54" label="eastern">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="56" label="venom">
-        <viz:size value="14.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="57" label="sequenc">
+      <node id="114" label="differ">
         <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="254" g="240" b="217"></viz:color>
       </node>
-      <node id="14" label="visit">
+      <node id="115" label="danc">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="117" label="nectar">
         <viz:size value="12.0"></viz:size>
-        <viz:color r="254" g="240" b="217"></viz:color>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="17" label="behaviour">
-        <viz:size value="12.0"></viz:size>
-        <viz:color r="254" g="240" b="217"></viz:color>
-      </node>
-      <node id="121" label="pupa">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="0" label="Î±â€�lobe">
+      <node id="53" label="natal">
         <viz:size value="6.0"></viz:size>
         <viz:color r="254" g="240" b="217"></viz:color>
       </node>
-      <node id="122" label="cell">
-        <viz:size value="22.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      <node id="12" label="mite">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="200" label="gland">
+      <node id="57" label="photoreceptor">
         <viz:size value="8.0"></viz:size>
-        <viz:color r="254" g="240" b="217"></viz:color>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="3" label="row">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="179" g="0" b="0"></viz:color>
+      <node id="58" label="pump">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="125" label="peptid">
+      <node id="15" label="ctn">
         <viz:size value="6.0"></viz:size>
         <viz:color r="254" g="240" b="217"></viz:color>
       </node>
-      <node id="4" label="sunflow">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+      <node id="16" label="pollen">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="5" label="forag">
+      <node id="19" label="visit">
+        <viz:size value="18.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="161" label="african">
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="163" label="colour">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="164" label="fig">
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="2" label="forag">
+        <viz:size value="16.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="125" label="brood">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="5" label="attract">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="127" label="coloni">
         <viz:size value="28.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
+        <viz:color r="197" g="60" b="54"></viz:color>
       </node>
-      <node id="6" label="pollen">
-        <viz:size value="30.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
+      <node id="208" label="pla2">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="128" label="obtain">
+      <node id="61" label="system">
         <viz:size value="6.0"></viz:size>
         <viz:color r="254" g="240" b="217"></viz:color>
       </node>
-      <node id="129" label="differ">
+      <node id="62" label="organ">
         <viz:size value="6.0"></viz:size>
         <viz:color r="254" g="240" b="217"></viz:color>
       </node>
-      <node id="9" label="test">
-        <viz:size value="10.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="172" label="colour">
-        <viz:size value="16.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="173" label="fig">
-        <viz:size value="10.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="133" label="mite">
-        <viz:size value="20.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="134" label="brood">
+      <node id="65" label="venom">
         <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="254" g="240" b="217"></viz:color>
       </node>
-      <node id="30" label="patern">
+      <node id="23" label="tnfâ€�beta">
         <viz:size value="6.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
+        <viz:color r="216" g="120" b="108"></viz:color>
       </node>
-      <node id="31" label="mtdna">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="75" label="wasp">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="32" label="egg">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="77" label="competit">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="37" label="codon">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="38" label="posit">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="39" label="gene">
-        <viz:size value="14.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="143" label="count">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="144" label="lower">
-        <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="101" label="instrument">
-        <viz:size value="70.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="102" label="chemic">
-        <viz:size value="70.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="103" label="spermatheca">
-        <viz:size value="70.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="149" label="african">
-        <viz:size value="8.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
-      </node>
-      <node id="80" label="drone">
-        <viz:size value="16.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="81" label="flower">
-        <viz:size value="40.0"></viz:size>
-        <viz:color r="204" g="79" b="72"></viz:color>
-      </node>
-      <node id="82" label="nectar">
+      <node id="25" label="sequenc">
         <viz:size value="12.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="235" g="180" b="162"></viz:color>
       </node>
-      <node id="83" label="worker">
+      <node id="69" label="codon">
         <viz:size value="6.0"></viz:size>
-        <viz:color r="229" g="159" b="144" a="0.99607843"></viz:color>
+        <viz:color r="216" g="120" b="108"></viz:color>
       </node>
-      <node id="84" label="queen">
-        <viz:size value="16.0"></viz:size>
-        <viz:color r="179" g="0" b="0"></viz:color>
+      <node id="29" label="hygien">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="134" label="worker">
+        <viz:size value="12.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="70" label="posit">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="71" label="drosophila">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="30" label="nonhygien">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="31" label="behaviour">
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="75" label="cell">
+        <viz:size value="22.0"></viz:size>
+        <viz:color r="197" g="60" b="54"></viz:color>
+      </node>
+      <node id="32" label="groom">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="34" label="remov">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="35" label="acrosom">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="36" label="complex">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="37" label="model">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="180" label="protein">
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="262" label="travel">
+        <viz:size value="70.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="263" label="1988">
+        <viz:size value="70.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="264" label="6fold">
+        <viz:size value="70.0"></viz:size>
+        <viz:color r="235" g="180" b="162"></viz:color>
+      </node>
+      <node id="220" label="drone">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="189" label="queen">
+        <viz:size value="20.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="149" label="gland">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="216" g="120" b="108"></viz:color>
+      </node>
+      <node id="83" label="cycl">
+        <viz:size value="8.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="41" label="associ">
+        <viz:size value="6.0"></viz:size>
+        <viz:color r="254" g="240" b="217"></viz:color>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="101" target="103" weight="35.0"></edge>
-      <edge id="1" source="30" target="32" weight="2.0"></edge>
-      <edge id="2" source="133" target="134"></edge>
-      <edge id="3" source="153" target="5" weight="3.0"></edge>
-      <edge id="4" source="56" target="122" weight="3.0"></edge>
-      <edge id="5" source="155" target="6"></edge>
-      <edge id="6" source="133" target="45" weight="2.0"></edge>
-      <edge id="7" source="84" target="93" weight="4.0"></edge>
-      <edge id="8" source="30" target="31" weight="3.0"></edge>
-      <edge id="9" source="172" target="173" weight="5.0"></edge>
-      <edge id="10" source="37" target="39" weight="2.0"></edge>
-      <edge id="11" source="89" target="90"></edge>
-      <edge id="12" source="37" target="38" weight="3.0"></edge>
-      <edge id="13" source="3" target="6" weight="2.0"></edge>
-      <edge id="14" source="153" target="143"></edge>
-      <edge id="15" source="53" target="82" weight="2.0"></edge>
-      <edge id="16" source="75" target="77" weight="2.0"></edge>
-      <edge id="17" source="52" target="54" weight="3.0"></edge>
-      <edge id="18" source="101" target="102" weight="35.0"></edge>
-      <edge id="19" source="53" target="81" weight="2.0"></edge>
-      <edge id="20" source="80" target="83"></edge>
-      <edge id="21" source="155" target="9"></edge>
-      <edge id="22" source="3" target="5"></edge>
-      <edge id="23" source="84" target="154" weight="3.0"></edge>
-      <edge id="24" source="149" target="150" weight="2.0"></edge>
-      <edge id="25" source="143" target="144"></edge>
-      <edge id="26" source="89" target="57" weight="2.0"></edge>
-      <edge id="27" source="56" target="121" weight="3.0"></edge>
-      <edge id="28" source="52" target="53"></edge>
-      <edge id="29" source="80" target="84"></edge>
-      <edge id="30" source="172" target="81" weight="6.0"></edge>
-      <edge id="31" source="3" target="4" weight="4.0"></edge>
+      <edge id="0" source="75" target="208" weight="4.0"></edge>
+      <edge id="1" source="163" target="111" weight="7.0"></edge>
+      <edge id="2" source="125" target="49"></edge>
+      <edge id="3" source="69" target="70" weight="2.0"></edge>
+      <edge id="4" source="125" target="12"></edge>
+      <edge id="5" source="149" target="75"></edge>
+      <edge id="6" source="49" target="111"></edge>
+      <edge id="7" source="262" target="263" weight="35.0"></edge>
+      <edge id="8" source="29" target="31" weight="3.0"></edge>
+      <edge id="9" source="35" target="37"></edge>
+      <edge id="10" source="163" target="164" weight="5.0"></edge>
+      <edge id="11" source="32" target="34"></edge>
+      <edge id="12" source="115" target="117" weight="2.0"></edge>
+      <edge id="13" source="151" target="115"></edge>
+      <edge id="14" source="149" target="180"></edge>
+      <edge id="15" source="29" target="30" weight="3.0"></edge>
+      <edge id="16" source="127" target="16" weight="2.0"></edge>
+      <edge id="17" source="127" target="2" weight="2.0"></edge>
+      <edge id="18" source="35" target="36" weight="3.0"></edge>
+      <edge id="19" source="48" target="49"></edge>
+      <edge id="20" source="127" target="134" weight="2.0"></edge>
+      <edge id="21" source="49" target="19" weight="2.0"></edge>
+      <edge id="22" source="262" target="264" weight="35.0"></edge>
+      <edge id="23" source="23" target="75"></edge>
+      <edge id="24" source="69" target="71" weight="2.0"></edge>
+      <edge id="25" source="161" target="46" weight="2.0"></edge>
+      <edge id="26" source="57" target="58" weight="3.0"></edge>
+      <edge id="27" source="48" target="19" weight="2.0"></edge>
+      <edge id="28" source="23" target="25" weight="2.0"></edge>
     </edges>
   </graph>
 </gexf>
