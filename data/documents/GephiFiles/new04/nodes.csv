@@ -1,0 +1,51 @@
+Id,Label,Weight
+50,Varroa destructor,505
+51,Honey,224
+52,Foraging,185
+53,Pollen,182
+54,Propolis,169
+55,Paenibacillus larvae,106
+56,Pollinators,92
+57,Learning,90
+58,Nectar,88
+59,Beekeeping,84
+60,Division of labor,84
+61,Gene expression,80
+62,Apis mellifera carnica,77
+63,Aethina tumida,75
+64,Olfaction,74
+65,Imidacloprid,72
+66,Waggle dance,68
+67,Bee venom,68
+68,Apis mellifera scutellata,67
+69,Bee,66
+70,Apis mellifera capensis,66
+71,Communication,65
+72,Stingless bees,64
+73,Nutrition,63
+74,Apis florea,59
+75,Deformed wing virus,58
+76,Vision,57
+77,Resistance,56
+78,Pollinator,56
+79,Development,55
+80,Apis dorsata,54
+81,Toxicity,53
+82,Hygienic behavior,52
+83,Memory,51
+84,Social insect,51
+85,Swarming,50
+86,Evolution,49
+87,Polyandry,49
+88,Apis cerana cerana,48
+89,Octopamine,48
+90,Risk assessment,48
+91,Oxalic acid,47
+92,Neonicotinoids,45
+93,PCR,45
+94,Microsatellites,45
+95,Venom,45
+96,Ecosystem services,44
+97,Worker reproduction,44
+98,Brain,44
+99,Drone,44
