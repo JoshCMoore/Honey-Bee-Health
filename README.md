@@ -7,7 +7,8 @@ Aggregating research papers on honey bee health in preperation of topic modeling
 * Gensim for topic modeling of the research paper terms and tags.
 
 * IPython Notebooks to document all work.
-
+data/documents/GephiFiles/Example.png
+![Alt text](data/documents/GephiFiles/Example.png)
 
 # Methods used
 * LDA Model with TF-IDF and DocBow weights for the terms.
