@@ -8,6 +8,14 @@ Aggregating research papers on honey bee health in preperation of topic modeling
 
 * IPython Notebooks to document all work.
 
+* Custom API implementing data science structures and features
+
+* Gephi is used to build graphs to display the correlation and connections between words.
+
+* A custom utility was designed to be interoperable with Gephi, the GraphBuilder, which in short constructs graph files from a nodes.csv and an edges.csv
+
+
+
 
 # Methods used
 * LDA Model with TF-IDF and DocBow weights for the terms.
