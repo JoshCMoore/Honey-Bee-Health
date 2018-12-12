@@ -1,0 +1,4 @@
+These files are too large for github. A zip file containing all of the files is hosted here: https://drive.google.com/open?id=1WNp0FRnpEh5p6Cby3RoVr-crx7UWHddH
+
+These figures are word clouds of the first occurence of keywords based on year, where the weight is the overall weight of the keyword
+in the corpus, not the weight in the given year.
